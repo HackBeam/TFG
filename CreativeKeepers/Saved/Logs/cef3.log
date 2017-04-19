@@ -1,0 +1,7 @@
+[0418/171724:WARNING:raw_channel_win.cc(532)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0418/171724:WARNING:channel.cc(359)] RawChannel write error
+[0418/171725:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
+[0418/171727:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[0418/171727:WARNING:raw_channel_win.cc(532)] WriteFile: Se está cerrando la canalización. (0xE8)
+[0418/171727:WARNING:channel.cc(359)] RawChannel write error
+[0418/175546:WARNING:raw_channel.cc(208)] Shutting down RawChannel with write buffer nonempty
