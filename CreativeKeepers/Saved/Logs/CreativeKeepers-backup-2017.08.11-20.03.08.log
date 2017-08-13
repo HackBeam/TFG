@@ -1,0 +1,693 @@
+﻿Log file open, 08/11/17 18:17:22
+LogInit:Display: Running engine for game: CreativeKeepers
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1281205187) SRandInit(-1281205187).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.895617
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Programas/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.11-16.17.23:654][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-16.17.23:654][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.11-16.17.23:701][  0]LogInit: Computer: DESKTOP-QMJBIV2
+[2017.08.11-16.17.23:701][  0]LogInit: User: Grego
+[2017.08.11-16.17.23:701][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.08.11-16.17.23:701][  0]LogInit: High frequency timer resolution =3.609381 MHz
+[2017.08.11-16.17.23:701][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.08.11-16.17.23:701][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-16.17.23:701][  0]LogMemory: Process Physical Memory: 262.84 MB used, 262.84 MB peak
+[2017.08.11-16.17.23:701][  0]LogMemory: Process Virtual Memory: 261.82 MB used, 261.82 MB peak
+[2017.08.11-16.17.23:701][  0]LogMemory: Physical Memory: 2927.84 MB used,  5227.24 MB free, 8155.07 MB total
+[2017.08.11-16.17.23:701][  0]LogMemory: Virtual Memory: 642.97 MB used,  5227.24 MB free, 134217728.00 MB total
+[2017.08.11-16.17.24:264][  0]LogInit: Overriding culture en with editor configuration.
+[2017.08.11-16.17.25:660][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.11-16.17.26:127][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.08.11-16.17.26:127][  0]LogD3D11RHI:       6084/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.11-16.17.26:128][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.11-16.17.26:128][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.11-16.17.26:128][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.11-16.17.26:145][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.11-16.17.26:145][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.11-16.17.26:145][  0]LogWindows: EnumDisplayDevices:
+[2017.08.11-16.17.26:145][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.08.11-16.17.26:145][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.11-16.17.26:145][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.11-16.17.26:145][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.11-16.17.26:145][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.11-16.17.26:145][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.08.11-16.17.26:145][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.08.11-16.17.26:145][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.08.11-16.17.26:145][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.11-16.17.26:591][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.11-16.17.26:819][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.11-16.17.26:901][  0]LogShaderCompilers: Guid format shader working directory is 11 characters bigger than the processId version (../../../../../TFG/CreativeKeepers/Intermediate/Shaders/WorkingDirectory/12800/).
+[2017.08.11-16.17.26:901][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Grego/AppData/Local/Temp/UnrealShaderWorkingDir/224A05B4452CFC3E55A63BA5D7DC3B5D/'.
+[2017.08.11-16.17.26:908][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.11-16.17.28:803][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.11-16.17.28:840][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.11-16.17.28:877][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.11-16.17.28:928][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.11-16.17.29:023][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.11-16.17.29:077][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.11-16.17.29:134][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.11-16.17.29:193][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.11-16.17.29:223][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.11-16.17.29:262][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.11-16.17.29:299][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.11-16.17.29:337][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.11-16.17.29:375][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.11-16.17.29:413][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.11-16.17.29:450][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.11-16.17.29:525][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.11-16.17.29:525][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.11-16.17.29:549][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.11-16.17.29:679][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.11-16.17.29:706][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.11-16.17.29:744][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.11-16.17.29:781][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.11-16.17.29:819][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.11-16.17.29:858][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.11-16.17.29:858][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.11-16.17.30:636][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.11-16.17.30:943][  0]LogDerivedDataCache: Loaded boot cache 0.31s 50MB C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.11-16.17.30:943][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.08.11-16.17.30:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../TFG/CreativeKeepers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.11-16.17.30:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.11-16.17.30:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../TFG/CreativeKeepers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.11-16.17.30:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.11-16.17.31:014][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.11-16.17.31:026][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Grego/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.11-16.17.31:157][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.11-16.17.31:275][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-16.17.31:275][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.11-16.17.36:613][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.11-16.17.36:685][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.11-16.17.37:172][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.11-16.17.37:205][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.11-16.17.37:240][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.11-16.17.37:240][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.11-16.17.37:240][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.11-16.17.40:605][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: creativekeepers, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1593119604
+[2017.08.11-16.17.40:702][  0]LogAssetRegistry: FAssetRegistry took 0.0225 seconds to start up
+[2017.08.11-16.17.41:009][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.229716 seconds
+[2017.08.11-16.17.41:030][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.08.11-16.17.41:030][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.08.11-16.17.41:030][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.11-16.17.41:068][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.11-16.17.51:519][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.11-16.17.51:557][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.11-16.17.52:475][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.11-16.17.52:934][  0]SourceControl: Info Source control is disabled
+[2017.08.11-16.17.52:935][  0]SourceControl: Info Source control is disabled
+[2017.08.11-16.17.52:985][  0]SourceControl: Info Source control is disabled
+[2017.08.11-16.17.53:020][  0]SourceControl: Info Source control is disabled
+[2017.08.11-16.17.54:492][  0]LogEngine: Initializing Engine...
+[2017.08.11-16.17.54:493][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.11-16.17.55:232][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.11-16.17.55:326][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-16.17.55:340][  0]LogInit: FAudioDevice initialized.
+[2017.08.11-16.17.55:360][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.11-16.17.55:362][  0]LogInit: Texture streaming: Enabled
+[2017.08.11-16.17.55:446][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.11-16.17.55:769][  0]LogInit: Transaction tracking system initialized
+[2017.08.11-16.17.57:347][  0]BlueprintLog: New page: Editor Load
+[2017.08.11-16.17.59:848][  0]LocalizationService: Info Localization service is disabled
+[2017.08.11-16.18.01:637][  0]LogConsoleResponse:Display: 
+[2017.08.11-16.18.05:095][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/' took 0.01s
+[2017.08.11-16.18.05:095][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.11-16.18.05:095][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.11-16.18.07:338][  0]SourceControl: Info Source control is disabled
+[2017.08.11-16.18.07:386][  0]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-16.18.07:426][  0]LightingResults: New page: Lighting Build
+[2017.08.11-16.18.07:633][  0]MapCheck: New page: Map Check
+[2017.08.11-16.18.07:633][  0]LightingResults: New page: Lighting Build
+[2017.08.11-16.18.12:505][  0]LogAIModule: Creating AISystem for world test
+[2017.08.11-16.18.12:829][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-16.18.12:905][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-16.18.12:944][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.109ms to complete.
+[2017.08.11-16.18.12:944][  0]LogFileHelpers: Loading map 'test' took 5.579
+[2017.08.11-16.18.15:462][  0]LogCollectionManager: Loaded 0 collections in 0.000749 seconds
+[2017.08.11-16.18.16:003][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Saved/Collections/' took 0.01s
+[2017.08.11-16.18.16:003][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/Developers/Grego/Collections/' took 0.01s
+[2017.08.11-16.18.16:003][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/Collections/' took 0.01s
+[2017.08.11-16.18.16:003][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.11-16.18.16:120][  0]LogContentBrowser: Native class hierarchy populated in 0.0201 seconds. Added 2245 classes and 453 folders.
+[2017.08.11-16.18.16:204][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.11-16.18.16:242][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.11-16.18.16:301][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.11-16.18.20:698][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.11-16.18.21:026][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.11-16.18.24:912][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.11-16.18.25:259][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.11-16.18.25:568][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.11-16.18.25:568][  0]LogLoad: (Engine Initialization) Total time: 70.20 seconds
+[2017.08.11-16.18.25:568][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.95 seconds
+[2017.08.11-16.18.25:568][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.11-16.18.25:627][  0]LogOcInput: OculusInput pre-init called
+[2017.08.11-16.18.26:089][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.11-16.18.26:520][  0]LogSlate: Took 0.137035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-16.18.26:560][  0]LogSlate: Took 0.036651 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-16.18.26:790][  0]LogSlate: Took 0.071788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-16.18.28:031][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.08.11-16.18.28:031][  0]LogSlate: Took 0.051540 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-16.18.28:941][  2]LogAssetRegistry: Asset discovery search completed in 48.2603 seconds
+[2017.08.11-16.18.28:941][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000013 seconds (found 0 objects)
+[2017.08.11-16.18.28:941][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.08.11-16.18.28:952][  2]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-16.18.35:753][715]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-16.18.36:362][715]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.08.11-16.18.37:904][715]LoadErrors:Error: Error /Game/Dialogos/hist_prologo : Failed import for Texture2D /Game/Textures/ForBackgrounds/306.306
+[2017.08.11-16.18.37:995][715]LogSlate: Took 0.012333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.11-16.18.38:438][716]LogSlate: Took 0.026190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.11-16.19.24:908][238]LogEditorViewport: Clicking Background
+[2017.08.11-16.53.21:071][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main-menu" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-16.53.21:118][789]LogSavePackage: Save=15.03ms
+[2017.08.11-16.53.21:118][789]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/main-menu2D74967A445F2E3D2C0B77A0D380DD7B.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap'
+[2017.08.11-16.53.21:128][789]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap
+[2017.08.11-16.53.21:128][789]LogFileHelpers: Saving map 'main-menu' took 0.110
+[2017.08.11-16.53.21:130][789]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-16.53.21:130][789]LightingResults: New page: Lighting Build
+[2017.08.11-16.53.21:131][789]LoadErrors: New page: Loading map: main-menu.umap
+[2017.08.11-16.53.21:132][789]MapCheck: New page: Map Check
+[2017.08.11-16.53.21:132][789]LightingResults: New page: Lighting Build
+[2017.08.11-16.53.21:217][789]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-16.53.21:218][789]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-16.53.21:220][789]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-16.53.21:244][789]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-16.53.21:271][789]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.816ms to complete.
+[2017.08.11-16.53.21:271][789]LogFileHelpers: Loading map 'main-menu' took 0.142
+[2017.08.11-16.53.27:923][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_4.WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos:WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor_C:WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_3.WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos_C:WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_2.WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-prologo.hud-prologo:WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_1.WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_0.WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-prologo.hud-prologo_C:WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mainmenu.hud-mainmenu:WidgetTree.CanvasPanel_0
+[2017.08.11-16.59.05:941][ 81]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Button /Engine/UMG/Editor/Transient.newgame).  Import failed...
+[2017.08.11-16.59.05:941][ 81]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_4.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos:WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_5.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor_C:WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_3.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos_C:WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_2.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-prologo.hud-prologo:WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_1.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_0.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-prologo.hud-prologo_C:WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mainmenu.hud-mainmenu:WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_6.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_4:hud-mainmenu_C_7.WidgetTree.CanvasPanel_0
+[2017.08.11-17.00.27:735][814]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Button /Engine/UMG/Editor/Transient.newgame).  Import failed...
+[2017.08.11-17.00.27:735][814]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.08.11-17.03.16:818][675]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/main-menu' took 0.030
+[2017.08.11-17.03.16:854][675]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDs/hud-mainmenu] ([1] browsable assets)...
+[2017.08.11-17.03.16:854][675]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDs/hud-mainmenu]
+[2017.08.11-17.03.16:854][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mainmenu" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/hud-mainmenu_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.11-17.03.16:861][675]LogSavePackage: Save=5.00ms
+[2017.08.11-17.03.16:861][675]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mainmenu_Auto19780892641A8DC24FEB249A57C80A431.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/hud-mainmenu_Auto1.uasset'
+[2017.08.11-17.03.16:875][675]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/hud-mainmenu_Auto1.uasset
+[2017.08.11-17.03.16:875][675]LogFileHelpers: Auto-saving content packages took 0.057
+[2017.08.11-17.10.26:173][782]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Escritorio\titluo.png)
+[2017.08.11-17.10.26:193][782]LogTexture:Display: Building textures: titluo (BGRA8, 1159X106) - 83 MB total VRAM
+[2017.08.11-17.10.29:925][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Others/titluo" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/Others/titluo.uasset" SILENT=true
+[2017.08.11-17.10.29:949][209]LogSavePackage: Save=23.71ms
+[2017.08.11-17.10.29:949][209]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/titluo8099275F479E42195CC4A687193C2E36.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/Others/titluo.uasset'
+[2017.08.11-17.10.29:952][209]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/Others/titluo.uasset
+[2017.08.11-17.16.52:349][ 36]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/main-menu' took 0.028
+[2017.08.11-17.16.52:350][ 36]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDs/hud-mainmenu] ([1] browsable assets)...
+[2017.08.11-17.16.52:350][ 36]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDs/hud-mainmenu]
+[2017.08.11-17.16.52:350][ 36]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mainmenu" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/hud-mainmenu_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.11-17.16.52:361][ 36]LogSavePackage: Save=9.23ms
+[2017.08.11-17.16.52:361][ 36]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mainmenu_Auto22DFD71AD44283AF8867599A511466BEA.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/hud-mainmenu_Auto2.uasset'
+[2017.08.11-17.16.52:362][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/hud-mainmenu_Auto2.uasset
+[2017.08.11-17.16.52:362][ 36]LogFileHelpers: Auto-saving content packages took 0.013
+[2017.08.11-17.18.01:435][613]LogEditorTransaction: Undo Add Keys at Current Time
+[2017.08.11-17.18.01:706][633]LogEditorTransaction: Undo Edit A
+[2017.08.11-17.18.05:150][ 35]LogEditorTransaction: Undo Add Keys at Current Time
+[2017.08.11-17.22.20:699][399]BlueprintLog: New page: Compile hud-mainmenu
+[2017.08.11-17.22.21:219][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mainmenu" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset" SILENT=true
+[2017.08.11-17.22.21:235][436]LogSavePackage: Save=13.57ms
+[2017.08.11-17.22.21:235][436]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mainmenu43AAAC254C24FED477C51FBA267C587D.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset'
+[2017.08.11-17.22.21:237][436]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset
+[2017.08.11-17.23.45:184][394]BlueprintLog: New page: Compile hud-mainmenu
+[2017.08.11-17.28.48:854][386]LogEditorTransaction: Undo Remove Widget
+[2017.08.11-17.28.49:546][465]LogEditorTransaction: Undo Remove Widget
+[2017.08.11-17.28.49:795][492]LogEditorTransaction: Undo Add Widget
+[2017.08.11-17.28.50:011][515]LogEditorTransaction: Undo Resize Widget
+[2017.08.11-17.28.50:261][542]LogEditorTransaction: Undo Move Widget
+[2017.08.11-17.28.50:652][586]LogEditorTransaction: Undo Add Widget
+[2017.08.11-17.28.50:917][615]LogEditorTransaction: Undo Rename Widget
+[2017.08.11-17.28.51:150][640]LogEditorTransaction: Undo Variable Toggle
+[2017.08.11-17.28.51:349][661]LogEditorTransaction: Undo Rename Widget
+[2017.08.11-17.28.51:529][680]LogEditorTransaction: Undo Edit Top
+[2017.08.11-17.28.51:677][695]LogEditorTransaction: Undo Edit Top
+[2017.08.11-17.28.51:841][712]LogEditorTransaction: Undo Edit Top
+[2017.08.11-17.28.51:997][728]LogEditorTransaction: Undo Edit Top
+[2017.08.11-17.28.52:170][746]LogEditorTransaction: Undo Edit Top
+[2017.08.11-17.28.52:351][765]LogEditorTransaction: Undo Move Widgets
+[2017.08.11-17.28.52:540][785]LogEditorTransaction: Undo Resize Widget
+[2017.08.11-17.28.52:862][821]LogEditorTransaction: Undo Move Widget
+[2017.08.11-17.28.53:393][882]LogEditorTransaction: Undo Add Widget
+[2017.08.11-17.28.57:950][426]BlueprintLog: New page: Compile hud-mainmenu
+[2017.08.11-17.28.58:346][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mainmenu" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset" SILENT=true
+[2017.08.11-17.28.58:618][457]LogSavePackage: Save=16.45ms
+[2017.08.11-17.28.58:618][457]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mainmenu685EC4A344A4C78807FA308558CD6C24.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset'
+[2017.08.11-17.28.58:621][457]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset
+[2017.08.11-17.29.50:067][505]BlueprintLog: New page: Compile hud-mainmenu
+[2017.08.11-17.29.50:468][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mainmenu" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset" SILENT=true
+[2017.08.11-17.29.50:498][539]LogSavePackage: Save=17.05ms
+[2017.08.11-17.29.50:498][539]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mainmenu7DA174704061AAC3D3556292D4C02310.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset'
+[2017.08.11-17.29.50:500][539]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mainmenu.uasset
+[2017.08.11-17.29.59:110][570]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-17.29.59:126][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-17.29.59:151][570]PIE: New page: PIE session: main-menu (Aug 11, 2017, 9:29:59 PM)
+[2017.08.11-17.29.59:162][570]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main-menu
+[2017.08.11-17.29.59:169][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006234s)
+[2017.08.11-17.29.59:169][570]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-17.29.59:170][570]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2017.08.11-17.29.59:170][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main-menu.main-menu to /Game/Levels/UEDPIE_0_main-menu.main-menu (0.018025s)
+[2017.08.11-17.29.59:198][570]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-17.29.59:208][570]LogInit: FAudioDevice initialized.
+[2017.08.11-17.29.59:278][570]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.11-17.29.59:279][570]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main-menu.main-menu up for play (max tick rate 0) at 2017.08.11-19.29.59
+[2017.08.11-17.29.59:309][570]LogWorld: Bringing up level for play took: 0.030763
+[2017.08.11-17.29.59:326][570]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-17.29.59:399][570]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.11-17.29.59:416][570]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_main-menu 1.226
+[2017.08.11-17.29.59:435][570]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:20936).
+[2017.08.11-17.30.07:313][401]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.11-17.30.14:143][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main-menu" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-17.30.14:186][215]LogSavePackage: Save=5.11ms
+[2017.08.11-17.30.14:186][215]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/main-menu9F2186BD4659466AC802A5935E2C900B.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap'
+[2017.08.11-17.30.14:189][215]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap
+[2017.08.11-17.30.15:670][390]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-17.30.15:683][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-17.30.15:683][390]PIE: New page: PIE session: main-menu (Aug 11, 2017, 9:30:15 PM)
+[2017.08.11-17.30.15:683][390]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main-menu
+[2017.08.11-17.30.15:684][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000398s)
+[2017.08.11-17.30.15:684][390]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-17.30.15:684][390]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2017.08.11-17.30.15:684][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main-menu.main-menu to /Game/Levels/UEDPIE_0_main-menu.main-menu (0.001054s)
+[2017.08.11-17.30.15:711][390]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-17.30.15:720][390]LogInit: FAudioDevice initialized.
+[2017.08.11-17.30.15:817][390]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.30.15:817][390]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main-menu.main-menu up for play (max tick rate 0) at 2017.08.11-19.30.15
+[2017.08.11-17.30.15:818][390]LogWorld: Bringing up level for play took: 0.000544
+[2017.08.11-17.30.15:845][390]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.30.15:846][390]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_main-menu -0.345
+[2017.08.11-17.33.39:275][352]BlueprintLog: New page: Compile hud-mouseCursor
+[2017.08.11-17.33.40:452][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mouseCursor" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset" SILENT=true
+[2017.08.11-17.33.40:486][474]LogSavePackage: Save=20.87ms
+[2017.08.11-17.33.40:487][474]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mouseCursorB218FEB4404032228526F08C062B3EC6.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset'
+[2017.08.11-17.33.40:489][474]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset
+[2017.08.11-17.34.10:459][ 50]LogSlate: Took 0.010274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.11-17.35.29:382][406]BlueprintLog: New page: Compile misc-gameInstance
+[2017.08.11-17.35.32:535][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miscelaneous/misc-gameInstance" FILE="../../../../../TFG/CreativeKeepers/Content/Miscelaneous/misc-gameInstance.uasset" SILENT=true
+[2017.08.11-17.35.32:562][745]LogSavePackage: Save=13.87ms
+[2017.08.11-17.35.32:562][745]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/misc-gameInstance495D0C3D4B336CA33A1512B75C6A88BD.tmp' to '../../../../../TFG/CreativeKeepers/Content/Miscelaneous/misc-gameInstance.uasset'
+[2017.08.11-17.35.32:565][745]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Miscelaneous/misc-gameInstance.uasset
+[2017.08.11-17.37.23:200][929]BlueprintLog: New page: Compile hud-mouseCursor
+[2017.08.11-17.37.23:967][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mouseCursor" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset" SILENT=true
+[2017.08.11-17.37.23:989][  7]LogSavePackage: Save=9.41ms
+[2017.08.11-17.37.23:989][  7]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mouseCursor753588CF47457A2904351BBC94D5E92A.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset'
+[2017.08.11-17.37.23:992][  7]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset
+[2017.08.11-17.38.13:966][935]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.11-17.39.32:083][242]BlueprintLog: New page: Compile main-menu
+[2017.08.11-17.40.21:549][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main-menu" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/main-menu_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.11-17.40.21:640][706]LogSavePackage: Save=78.20ms
+[2017.08.11-17.40.21:640][706]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/main-menu_Auto3920F44E64161E52BE5F6D29E16B2B0FC.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/main-menu_Auto3.umap'
+[2017.08.11-17.40.21:642][706]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/main-menu_Auto3.umap
+[2017.08.11-17.40.21:643][706]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/main-menu' took 0.153
+[2017.08.11-17.40.21:643][706]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.153
+[2017.08.11-17.49.54:594][873]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Escritorio\cursor.png)
+[2017.08.11-17.49.54:596][873]LogTexture:Display: Building textures: cursor (AutoDXT, 40X40) - 84 MB total VRAM
+[2017.08.11-17.50.02:509][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Others/Target-PNG" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/Others/Target-PNG.uasset" SILENT=true
+[2017.08.11-17.50.02:512][788]LogSavePackage: Save=1.48ms
+[2017.08.11-17.50.02:512][788]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/Target-PNGC5F62D124043CAC8448A3195EE718CEF.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/Others/Target-PNG.uasset'
+[2017.08.11-17.50.02:513][788]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/Others/Target-PNG.uasset
+[2017.08.11-17.50.02:681][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mouseCursor" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset" SILENT=true
+[2017.08.11-17.50.02:706][788]LogSavePackage: Save=10.18ms
+[2017.08.11-17.50.02:706][788]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mouseCursorB07153364096CE3348BFF8A6D35C450D.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset'
+[2017.08.11-17.50.02:709][788]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset
+[2017.08.11-17.50.45:668][406]BlueprintLog: New page: Compile hud-mouseCursor
+[2017.08.11-17.50.46:306][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-mouseCursor" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset" SILENT=true
+[2017.08.11-17.50.46:330][463]LogSavePackage: Save=9.47ms
+[2017.08.11-17.50.46:330][463]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-mouseCursor5404B996413811E999361998700ECD64.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset'
+[2017.08.11-17.50.46:333][463]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-mouseCursor.uasset
+[2017.08.11-17.50.52:279][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main-menu" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-17.50.52:414][175]LogSavePackage: Save=93.28ms
+[2017.08.11-17.50.52:414][175]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/main-menuF5695C264F6D6069344D6F9DB0460172.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap'
+[2017.08.11-17.50.52:416][175]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap
+[2017.08.11-17.50.53:810][339]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-17.50.53:828][339]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.50.53:828][339]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-17.50.53:829][339]PIE: New page: PIE session: main-menu (Aug 11, 2017, 9:50:53 PM)
+[2017.08.11-17.50.53:829][339]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main-menu
+[2017.08.11-17.50.53:830][339]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000708s)
+[2017.08.11-17.50.53:830][339]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-17.50.53:830][339]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.08.11-17.50.53:830][339]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main-menu.main-menu to /Game/Levels/UEDPIE_0_main-menu.main-menu (0.001430s)
+[2017.08.11-17.50.53:859][339]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-17.50.53:869][339]LogInit: FAudioDevice initialized.
+[2017.08.11-17.50.53:903][339]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.50.53:903][339]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main-menu.main-menu up for play (max tick rate 0) at 2017.08.11-19.50.53
+[2017.08.11-17.50.53:903][339]LogWorld: Bringing up level for play took: 0.000567
+[2017.08.11-17.50.53:904][339]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.50.53:906][339]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_main-menu -0.285
+[2017.08.11-17.50.53:906][339]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.51.07:059][910]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.51.07:095][910]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.51.08:265][ 45]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-17.51.08:281][ 45]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.51.08:281][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-17.51.08:281][ 45]PIE: New page: PIE session: main-menu (Aug 11, 2017, 9:51:08 PM)
+[2017.08.11-17.51.08:282][ 45]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main-menu
+[2017.08.11-17.51.08:282][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000734s)
+[2017.08.11-17.51.08:283][ 45]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-17.51.08:283][ 45]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.08.11-17.51.08:283][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main-menu.main-menu to /Game/Levels/UEDPIE_0_main-menu.main-menu (0.001469s)
+[2017.08.11-17.51.08:313][ 45]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-17.51.08:322][ 45]LogInit: FAudioDevice initialized.
+[2017.08.11-17.51.08:355][ 45]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.51.08:356][ 45]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main-menu.main-menu up for play (max tick rate 0) at 2017.08.11-19.51.08
+[2017.08.11-17.51.08:356][ 45]LogWorld: Bringing up level for play took: 0.000569
+[2017.08.11-17.51.08:356][ 45]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.51.08:358][ 45]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_main-menu 0.168
+[2017.08.11-17.51.08:358][ 45]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.51.13:890][706]LogNet: Browse: /Game/Levels/prologo
+[2017.08.11-17.51.13:890][706]LogLoad: LoadMap: /Game/Levels/prologo
+[2017.08.11-17.51.13:919][706]Cmd: MEM
+[2017.08.11-17.51.13:987][706]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-17.51.13:987][706]LogMemory: Process Physical Memory: 903.50 MB used, 1154.05 MB peak
+[2017.08.11-17.51.13:987][706]LogMemory: Process Virtual Memory: 2324.89 MB used, 2340.04 MB peak
+[2017.08.11-17.51.13:987][706]LogMemory: Physical Memory: 3667.22 MB used,  4487.86 MB free, 8155.07 MB total
+[2017.08.11-17.51.13:987][706]LogMemory: Virtual Memory: 3165.69 MB used,  4487.86 MB free, 134217728.00 MB total
+[2017.08.11-17.51.13:987][706]LogMemory: 
+[2017.08.11-17.51.13:987][706]Allocator Stats for TBB: (not implemented)
+[2017.08.11-17.51.14:626][706]LogAIModule: Creating AISystem for world prologo
+[2017.08.11-17.51.14:626][706]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.51.14:628][706]LogWorld: Bringing World /Game/Levels/UEDPIE_0_prologo.prologo up for play (max tick rate 0) at 2017.08.11-19.51.14
+[2017.08.11-17.51.14:628][706]LogWorld: Bringing up level for play took: 0.001038
+[2017.08.11-17.51.14:628][706]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-17.51.14:628][706]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.51.14:636][706]LogLoad: Took 0.745200 seconds to LoadMap(/Game/Levels/prologo)
+[2017.08.11-17.51.14:655][707]LoadErrors:Error: Error /Game/Dialogos/hist_prologo : Failed import for Texture2D /Game/Textures/ForBackgrounds/306.306
+[2017.08.11-17.51.36:558][230]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.51.36:591][230]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.53.26:740][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Others/cursor" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/Others/cursor.uasset" SILENT=true
+[2017.08.11-17.53.26:742][778]LogSavePackage: Save=1.44ms
+[2017.08.11-17.53.26:742][778]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/cursor8036D7AE48DD8045B6CABABA8A830DA8.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/Others/cursor.uasset'
+[2017.08.11-17.53.26:744][778]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/Others/cursor.uasset
+[2017.08.11-17.53.53:376][319]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\MATERIALES\Backgrounds\306.jpg)
+[2017.08.11-17.53.53:555][319]LogTexture:Display: Building textures: 306 (BGRA8, 3888X2187) - 83 MB total VRAM
+[2017.08.11-17.53.56:180][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/306" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/306.uasset" SILENT=true
+[2017.08.11-17.53.56:762][554]LogSavePackage: Save=568.88ms
+[2017.08.11-17.53.56:762][554]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/306149BF7C3418EFF3593F5E3A433022C29.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/306.uasset'
+[2017.08.11-17.53.56:764][554]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/306.uasset
+[2017.08.11-17.54.05:835][639]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-17.54.05:850][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.54.05:850][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-17.54.05:850][639]PIE: New page: PIE session: main-menu (Aug 11, 2017, 9:54:05 PM)
+[2017.08.11-17.54.05:900][639]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main-menu
+[2017.08.11-17.54.05:900][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000689s)
+[2017.08.11-17.54.05:901][639]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-17.54.05:901][639]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.08.11-17.54.05:901][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main-menu.main-menu to /Game/Levels/UEDPIE_0_main-menu.main-menu (0.001626s)
+[2017.08.11-17.54.05:933][639]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-17.54.05:943][639]LogInit: FAudioDevice initialized.
+[2017.08.11-17.54.05:978][639]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.54.05:978][639]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main-menu.main-menu up for play (max tick rate 0) at 2017.08.11-19.54.05
+[2017.08.11-17.54.05:978][639]LogWorld: Bringing up level for play took: 0.000547
+[2017.08.11-17.54.05:979][639]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.54.05:981][639]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_main-menu -0.209
+[2017.08.11-17.54.05:981][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.54.09:715][ 86]LogNet: Browse: /Game/Levels/prologo
+[2017.08.11-17.54.09:715][ 86]LogLoad: LoadMap: /Game/Levels/prologo
+[2017.08.11-17.54.09:743][ 86]Cmd: MEM
+[2017.08.11-17.54.09:769][ 86]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-17.54.09:769][ 86]LogMemory: Process Physical Memory: 1050.92 MB used, 1295.37 MB peak
+[2017.08.11-17.54.09:769][ 86]LogMemory: Process Virtual Memory: 2459.35 MB used, 2825.60 MB peak
+[2017.08.11-17.54.09:769][ 86]LogMemory: Physical Memory: 3855.46 MB used,  4299.61 MB free, 8155.07 MB total
+[2017.08.11-17.54.09:769][ 86]LogMemory: Virtual Memory: 3346.76 MB used,  4299.61 MB free, 134217728.00 MB total
+[2017.08.11-17.54.09:769][ 86]LogMemory: 
+[2017.08.11-17.54.09:769][ 86]Allocator Stats for TBB: (not implemented)
+[2017.08.11-17.54.09:880][ 86]LogAIModule: Creating AISystem for world prologo
+[2017.08.11-17.54.09:880][ 86]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.54.09:881][ 86]LogWorld: Bringing World /Game/Levels/UEDPIE_0_prologo.prologo up for play (max tick rate 0) at 2017.08.11-19.54.09
+[2017.08.11-17.54.09:882][ 86]LogWorld: Bringing up level for play took: 0.001049
+[2017.08.11-17.54.09:882][ 86]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-17.54.09:882][ 86]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.54.09:884][ 86]LogLoad: Took 0.169417 seconds to LoadMap(/Game/Levels/prologo)
+[2017.08.11-17.54.33:455][789]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.54.33:485][789]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-17.55.01:694][893]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CreativeKeepers
+
+[2017.08.11-17.55.01:694][893]LogTemp:Display: CWD: D:\Programas\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.08.11-17.55.01:694][893]LogTemp:Display: Initial Dir: D:\Programas\UE_4.15
+
+[2017.08.11-17.55.01:694][893]LogTemp:Display: Env CWD: D:\Programas\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.08.11-17.55.01:694][893]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.11-17.55.01:761][894]LogTemp:Display: BranchPath = DESKTOP-QMJBIV2/D/Programas/UE_4.15/Engine/Binaries --- GameBranchPath = DESKTOP-QMJBIV2/D/Programas/UE_4.15/Engine/Binaries
+
+[2017.08.11-17.55.01:761][894]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\Grego\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.08.11-17.55.01:761][894]LogTemp:Display:    en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.08.11-17.55.01:761][894]LogTemp:Display:    en System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.08.11-17.55.01:761][894]LogTemp:Display:    en System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.08.11-17.55.01:761][894]LogTemp:Display:    en iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.08.11-17.55.01:761][894]LogTemp:Display:    en iPhonePackager.Program.Main(String[] args)
+
+[2017.08.11-17.56.37:566][280]LogEditorViewport: Clicking Background
+[2017.08.11-17.56.44:486][ 99]LogAIModule: Creating AISystem for world prologo
+[2017.08.11-17.56.44:522][ 99]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/Levels/prologo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-17.56.44:522][ 99]LightingResults: New page: Lighting Build
+[2017.08.11-17.56.44:523][ 99]LoadErrors: New page: Loading map: prologo.umap
+[2017.08.11-17.56.44:523][ 99]MapCheck: New page: Map Check
+[2017.08.11-17.56.44:523][ 99]LightingResults: New page: Lighting Build
+[2017.08.11-17.56.44:604][ 99]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-17.56.44:624][ 99]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-17.56.44:651][ 99]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.214ms to complete.
+[2017.08.11-17.56.44:651][ 99]LogFileHelpers: Loading map 'prologo' took 0.131
+[2017.08.11-17.56.45:697][219]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-17.56.45:711][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.56.45:711][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-17.56.45:712][219]PIE: New page: PIE session: prologo (Aug 11, 2017, 9:56:45 PM)
+[2017.08.11-17.56.45:712][219]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_prologo
+[2017.08.11-17.56.45:713][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000713s)
+[2017.08.11-17.56.45:713][219]LogAIModule: Creating AISystem for world prologo
+[2017.08.11-17.56.45:713][219]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2017.08.11-17.56.45:713][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/prologo.prologo to /Game/Levels/UEDPIE_0_prologo.prologo (0.001341s)
+[2017.08.11-17.56.45:743][219]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-17.56.45:754][219]LogInit: FAudioDevice initialized.
+[2017.08.11-17.56.45:786][219]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.56.45:786][219]LogWorld: Bringing World /Game/Levels/UEDPIE_0_prologo.prologo up for play (max tick rate 0) at 2017.08.11-19.56.45
+[2017.08.11-17.56.45:786][219]LogWorld: Bringing up level for play took: 0.000557
+[2017.08.11-17.56.45:787][219]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.56.45:789][219]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_prologo -0.402
+[2017.08.11-17.56.45:789][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.56.48:533][500]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-17.56.48:546][500]LogSlate: Took 0.009180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-17.56.48:562][500]LogSlate: Took 0.010876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-17.56.48:566][500]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-17.57.01:603][ 54]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.57.01:632][ 54]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.57.02:450][146]LogEditorViewport: Clicking on Actor (LMB): hist_prologo_C (hist_prologo)
+[2017.08.11-17.57.02:514][150]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
+[2017.08.11-17.57.05:255][472]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-17.57.05:482][472]LogSlate: Took 0.000882 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.11-17.57.05:610][473]LogSlate: Took 0.000543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.11-17.57.14:612][527]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-17.57.19:924][147]BlueprintLog: New page: Compile hist_prologo
+[2017.08.11-17.57.20:394][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dialogos/hist_prologo" FILE="../../../../../TFG/CreativeKeepers/Content/Dialogos/hist_prologo.uasset" SILENT=true
+[2017.08.11-17.57.20:426][174]LogSavePackage: Save=18.38ms
+[2017.08.11-17.57.20:426][174]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hist_prologo20D1B8364CA9667D8C17F884615CB18B.tmp' to '../../../../../TFG/CreativeKeepers/Content/Dialogos/hist_prologo.uasset'
+[2017.08.11-17.57.20:428][174]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Dialogos/hist_prologo.uasset
+[2017.08.11-17.57.21:643][317]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-17.57.21:655][317]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.57.21:656][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-17.57.21:656][317]PIE: New page: PIE session: prologo (Aug 11, 2017, 9:57:21 PM)
+[2017.08.11-17.57.21:656][317]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_prologo
+[2017.08.11-17.57.21:657][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000707s)
+[2017.08.11-17.57.21:657][317]LogAIModule: Creating AISystem for world prologo
+[2017.08.11-17.57.21:657][317]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2017.08.11-17.57.21:657][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/prologo.prologo to /Game/Levels/UEDPIE_0_prologo.prologo (0.001334s)
+[2017.08.11-17.57.21:685][317]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-17.57.21:693][317]LogInit: FAudioDevice initialized.
+[2017.08.11-17.57.21:731][317]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-17.57.21:732][317]LogWorld: Bringing World /Game/Levels/UEDPIE_0_prologo.prologo up for play (max tick rate 0) at 2017.08.11-19.57.21
+[2017.08.11-17.57.21:732][317]LogWorld: Bringing up level for play took: 0.000662
+[2017.08.11-17.57.21:732][317]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-17.57.21:733][317]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-17.57.21:738][317]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_prologo -0.452
+[2017.08.11-17.57.21:738][317]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.57.36:165][776]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.57.36:231][776]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/prologo.prologo:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/prologo.prologo:PersistentLevel.prologo' with GeneratedClass '/Game/Levels/prologo.prologo_C' with ClassGeneratedBy '/Game/Levels/prologo.prologo:PersistentLevel.prologo'
+[2017.08.11-17.57.50:773][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/prologo" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/prologo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.11-17.57.50:902][491]LogSavePackage: Save=90.18ms
+[2017.08.11-17.57.50:902][491]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/prologo50FC757F418A8BB64BA636BFDA3796AD.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/prologo.umap'
+[2017.08.11-17.57.50:904][491]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/prologo.umap
+[2017.08.11-17.57.56:629][168]LogEditorViewport: Clicking Background
+[2017.08.11-18.00.34:736][392]LogEditorFactories: Performing atomic reimport of [D:/DATOS/Mis Archivos/Facultad/Dropbox/Facultad/TFG/MATERIALES/Backgrounds/306.jpg]
+[2017.08.11-18.00.34:737][392]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 D:/DATOS/Mis Archivos/Facultad/Dropbox/Facultad/TFG/MATERIALES/Backgrounds/306.jpg)
+[2017.08.11-18.00.34:905][392]LogTexture:Display: Building textures: 306 (BGRA8, 3787X2130) - 84 MB total VRAM
+[2017.08.11-18.00.35:426][392]LogEditorFactories: -- imported successfully
+[2017.08.11-18.00.38:680][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/306" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/306.uasset" SILENT=true
+[2017.08.11-18.00.39:140][492]LogSavePackage: Save=442.98ms
+[2017.08.11-18.00.39:140][492]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/306EE814D8844DD511BFE7F7DB74DB6BB62.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/306.uasset'
+[2017.08.11-18.00.39:143][492]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/306.uasset
+[2017.08.11-18.01.05:478][642]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-18.01.05:507][642]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/Levels/main-menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.11-18.01.05:507][642]LightingResults: New page: Lighting Build
+[2017.08.11-18.01.05:508][642]LoadErrors: New page: Loading map: main-menu.umap
+[2017.08.11-18.01.05:509][642]MapCheck: New page: Map Check
+[2017.08.11-18.01.05:509][642]LightingResults: New page: Lighting Build
+[2017.08.11-18.01.05:589][642]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.11-18.01.05:609][642]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.11-18.01.05:636][642]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.762ms to complete.
+[2017.08.11-18.01.05:636][642]LogFileHelpers: Loading map 'main-menu' took 0.130
+[2017.08.11-18.01.09:002][ 40]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.11-18.01.09:016][ 40]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-18.01.09:016][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.11-18.01.09:016][ 40]PIE: New page: PIE session: main-menu (Aug 11, 2017, 10:01:09 PM)
+[2017.08.11-18.01.09:016][ 40]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_main-menu
+[2017.08.11-18.01.09:017][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000688s)
+[2017.08.11-18.01.09:018][ 40]LogAIModule: Creating AISystem for world main-menu
+[2017.08.11-18.01.09:018][ 40]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2017.08.11-18.01.09:018][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/main-menu.main-menu to /Game/Levels/UEDPIE_0_main-menu.main-menu (0.001415s)
+[2017.08.11-18.01.09:045][ 40]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.11-18.01.09:054][ 40]LogInit: FAudioDevice initialized.
+[2017.08.11-18.01.09:086][ 40]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-18.01.09:087][ 40]LogWorld: Bringing World /Game/Levels/UEDPIE_0_main-menu.main-menu up for play (max tick rate 0) at 2017.08.11-20.01.09
+[2017.08.11-18.01.09:087][ 40]LogWorld: Bringing up level for play took: 0.000555
+[2017.08.11-18.01.09:087][ 40]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-18.01.09:089][ 40]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_main-menu 0.899
+[2017.08.11-18.01.09:089][ 40]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-18.01.11:263][296]LogNet: Browse: /Game/Levels/prologo
+[2017.08.11-18.01.11:263][296]LogLoad: LoadMap: /Game/Levels/prologo
+[2017.08.11-18.01.11:290][296]Cmd: MEM
+[2017.08.11-18.01.11:314][296]LogMemory: Platform Memory Stats for Windows
+[2017.08.11-18.01.11:314][296]LogMemory: Process Physical Memory: 1122.16 MB used, 1429.81 MB peak
+[2017.08.11-18.01.11:314][296]LogMemory: Process Virtual Memory: 2361.14 MB used, 2825.60 MB peak
+[2017.08.11-18.01.11:314][296]LogMemory: Physical Memory: 3778.80 MB used,  4376.27 MB free, 8155.07 MB total
+[2017.08.11-18.01.11:314][296]LogMemory: Virtual Memory: 3248.18 MB used,  4376.27 MB free, 134217728.00 MB total
+[2017.08.11-18.01.11:314][296]LogMemory: 
+[2017.08.11-18.01.11:314][296]Allocator Stats for TBB: (not implemented)
+[2017.08.11-18.01.11:396][296]LogAIModule: Creating AISystem for world prologo
+[2017.08.11-18.01.11:396][296]LogLoad: Game class is 'misc-gameModeNoPawn_C'
+[2017.08.11-18.01.11:398][296]LogWorld: Bringing World /Game/Levels/UEDPIE_0_prologo.prologo up for play (max tick rate 0) at 2017.08.11-20.01.11
+[2017.08.11-18.01.11:398][296]LogWorld: Bringing up level for play took: 0.000931
+[2017.08.11-18.01.11:398][296]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.11-18.01.11:398][296]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.11-18.01.11:400][296]LogLoad: Took 0.137093 seconds to LoadMap(/Game/Levels/prologo)
+[2017.08.11-18.01.18:238][ 94]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.11-18.01.18:242][ 94]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.11-18.01.18:247][ 94]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.11-18.01.18:250][ 94]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-18.01.34:758][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-18.01.34:791][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/main-menu.main-menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu' with GeneratedClass '/Game/Levels/main-menu.main-menu_C' with ClassGeneratedBy '/Game/Levels/main-menu.main-menu:PersistentLevel.main-menu'
+[2017.08.11-18.01.38:354][458]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.11-18.01.38:371][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/main-menu" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/UEDPCmain-menu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.08.11-18.01.38:459][458]LogSavePackage: Save=74.42ms
+[2017.08.11-18.01.38:459][458]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/UEDPCmain-menuAD272114493470BB5F0CAC8A0A2093A6.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/UEDPCmain-menu.umap'
+[2017.08.11-18.01.38:460][458]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/UEDPCmain-menu.umap
+[2017.08.11-18.01.38:467][458]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.08.11-18.01.38:487][459]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
+[2017.08.11-18.01.42:205][459]LogCrashTracker: 
+
+
+[2017.08.11-18.01.42:205][459]LogCrashTracker: 
+
+
+[2017.08.11-18.01.42:205][459]LogWindows:Error: === Critical error: ===
+[2017.08.11-18.01.42:205][459]LogWindows:Error: 
+[2017.08.11-18.01.42:205][459]LogWindows:Error: Fatal error: [File:D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\Templates\Casts.cpp] [Line: 10] 
+[2017.08.11-18.01.42:205][459]LogWindows:Error: Cast of nullptr to UserWidget failed
+[2017.08.11-18.01.42:205][459]LogWindows:Error: 
+[2017.08.11-18.01.42:205][459]LogWindows:Error: 
+[2017.08.11-18.01.42:205][459]LogWindows:Error: KERNELBASE.dll!0x000000001AD29E08
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-Core.dll!0x00000000E8A164EE
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-Core.dll!0x00000000E883CEEE
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-Core.dll!0x00000000E87C2729
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-CoreUObject.dll!0x00000000E821BF82
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-UMG.dll!0x00000000E1F2B208
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-UMG.dll!0x00000000E1FE7E36
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-Sequencer.dll!0x00000000DB56217A
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieScene.dll!0x00000000DEE5B809
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieScene.dll!0x00000000DEE363B7
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieSceneTracks.dll!0x00000000DEA96019
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieSceneTracks.dll!0x00000000DEAA5809
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieScene.dll!0x00000000DEE307B3
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieScene.dll!0x00000000DEE3FACE
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieScene.dll!0x00000000DEE34169
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-MovieScene.dll!0x00000000DEE33A93
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-Sequencer.dll!0x00000000DB4FA064
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-Sequencer.dll!0x00000000DB56FC8B
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000E6407C47
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000E6405979
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000E6C12086
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor.exe!0x00000000DC3FDEE3
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor.exe!0x00000000DC3EEB40
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor.exe!0x00000000DC3EEBBA
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor.exe!0x00000000DC400A29
+[2017.08.11-18.01.42:205][459]LogWindows:Error: UE4Editor.exe!0x00000000DC4022B6
+[2017.08.11-18.01.42:205][459]LogWindows:Error: KERNEL32.DLL!0x000000001C832774
+[2017.08.11-18.01.42:205][459]LogWindows:Error: ntdll.dll!0x000000001DD40D51
+[2017.08.11-18.01.42:205][459]LogWindows:Error: ntdll.dll!0x000000001DD40D51
+[2017.08.11-18.01.42:205][459]LogWindows:Error: 
+[2017.08.11-18.01.42:232][459]LogExit: Executing StaticShutdownAfterError
+[2017.08.11-18.01.42:339][459]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.08.11-18.01.42:339][459]Log file closed, 08/11/17 20:01:42
