@@ -1,0 +1,1241 @@
+﻿Log file open, 08/25/17 11:50:30
+LogInit:Display: Running engine for game: CreativeKeepers
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1303459678) SRandInit(1303459679).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.849859
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Programas/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.25-09.50.32:207][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.25-09.50.32:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.25-09.50.32:263][  0]LogInit: Computer: DESKTOP-QMJBIV2
+[2017.08.25-09.50.32:263][  0]LogInit: User: Grego
+[2017.08.25-09.50.32:263][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.08.25-09.50.32:263][  0]LogInit: High frequency timer resolution =3.609369 MHz
+[2017.08.25-09.50.32:263][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.08.25-09.50.32:263][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.25-09.50.32:263][  0]LogMemory: Process Physical Memory: 263.11 MB used, 263.11 MB peak
+[2017.08.25-09.50.32:263][  0]LogMemory: Process Virtual Memory: 261.84 MB used, 261.84 MB peak
+[2017.08.25-09.50.32:263][  0]LogMemory: Physical Memory: 3456.29 MB used,  4698.79 MB free, 8155.07 MB total
+[2017.08.25-09.50.32:263][  0]LogMemory: Virtual Memory: 642.97 MB used,  4698.79 MB free, 134217728.00 MB total
+[2017.08.25-09.50.32:938][  0]LogInit: Overriding culture en with editor configuration.
+[2017.08.25-09.50.34:399][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.25-09.50.34:938][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.08.25-09.50.34:938][  0]LogD3D11RHI:       6084/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.25-09.50.34:939][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.25-09.50.34:939][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.25-09.50.34:939][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.25-09.50.34:999][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.25-09.50.34:999][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.25-09.50.34:999][  0]LogWindows: EnumDisplayDevices:
+[2017.08.25-09.50.34:999][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.08.25-09.50.34:999][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.25-09.50.34:999][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.25-09.50.35:000][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.25-09.50.35:000][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.25-09.50.35:000][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.08.25-09.50.35:000][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.08.25-09.50.35:000][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.08.25-09.50.35:000][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.25-09.50.35:515][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.25-09.50.35:763][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.25-09.50.35:913][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../TFG/CreativeKeepers/Intermediate/Shaders/WorkingDirectory/8860/).
+[2017.08.25-09.50.35:913][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Grego/AppData/Local/Temp/UnrealShaderWorkingDir/07C1E7424DF24844D62A798C1047F85D/'.
+[2017.08.25-09.50.35:920][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.25-09.50.38:057][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.25-09.50.38:097][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.25-09.50.38:137][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.25-09.50.38:177][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.25-09.50.38:225][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.25-09.50.38:264][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.25-09.50.38:303][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.25-09.50.38:342][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.25-09.50.38:372][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.25-09.50.38:429][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.25-09.50.38:466][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.25-09.50.38:503][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.25-09.50.38:540][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.25-09.50.38:578][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.25-09.50.38:616][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.25-09.50.38:690][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.25-09.50.38:690][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.25-09.50.38:715][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.25-09.50.38:839][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.25-09.50.38:868][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.25-09.50.38:905][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.25-09.50.38:946][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.25-09.50.38:983][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.25-09.50.39:021][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.25-09.50.39:021][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.25-09.50.39:833][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.25-09.50.40:222][  0]LogDerivedDataCache: Loaded boot cache 0.39s 55MB C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.25-09.50.40:222][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.08.25-09.50.40:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../TFG/CreativeKeepers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.25-09.50.40:222][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.25-09.50.40:222][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../TFG/CreativeKeepers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.25-09.50.40:222][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.25-09.50.40:292][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.25-09.50.40:305][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Grego/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.25-09.50.40:414][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.25-09.50.40:523][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.25-09.50.40:523][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.25-09.50.45:717][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.25-09.50.45:781][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.25-09.50.46:268][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.25-09.50.46:301][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.25-09.50.46:336][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.25-09.50.46:336][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.25-09.50.46:336][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.25-09.50.49:659][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: creativekeepers, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1593119604
+[2017.08.25-09.50.49:748][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2017.08.25-09.50.50:015][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.190099 seconds
+[2017.08.25-09.50.50:051][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.08.25-09.50.50:051][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.08.25-09.50.50:051][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.25-09.50.50:089][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.25-09.51.01:665][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.25-09.51.01:703][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.25-09.51.02:587][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.25-09.51.03:031][  0]SourceControl: Info Source control is disabled
+[2017.08.25-09.51.03:032][  0]SourceControl: Info Source control is disabled
+[2017.08.25-09.51.03:091][  0]SourceControl: Info Source control is disabled
+[2017.08.25-09.51.03:124][  0]SourceControl: Info Source control is disabled
+[2017.08.25-09.51.04:563][  0]LogEngine: Initializing Engine...
+[2017.08.25-09.51.04:564][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.25-09.51.08:469][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.25-09.51.08:546][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-09.51.08:562][  0]LogInit: FAudioDevice initialized.
+[2017.08.25-09.51.08:583][  0]LogDerivedDataCache: Saved boot cache 0.02s 55MB C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.25-09.51.08:587][  0]LogInit: Texture streaming: Enabled
+[2017.08.25-09.51.08:667][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.25-09.51.08:962][  0]LogInit: Transaction tracking system initialized
+[2017.08.25-09.51.10:077][  0]BlueprintLog: New page: Editor Load
+[2017.08.25-09.51.12:605][  0]LocalizationService: Info Localization service is disabled
+[2017.08.25-09.51.13:647][  0]LogConsoleResponse:Display: 
+[2017.08.25-09.51.16:633][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/' took 0.01s
+[2017.08.25-09.51.16:633][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.25-09.51.16:633][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.25-09.51.20:600][  0]SourceControl: Info Source control is disabled
+[2017.08.25-09.51.20:767][  0]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.25-09.51.20:835][  0]LightingResults: New page: Lighting Build
+[2017.08.25-09.51.21:362][  0]MapCheck: New page: Map Check
+[2017.08.25-09.51.21:362][  0]LightingResults: New page: Lighting Build
+[2017.08.25-09.51.23:212][  0]LogAIModule: Creating AISystem for world test
+[2017.08.25-09.51.23:866][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.25-09.51.24:009][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.25-09.51.24:035][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 25.533ms to complete.
+[2017.08.25-09.51.24:035][  0]LogFileHelpers: Loading map 'test' took 3.305
+[2017.08.25-09.51.28:524][  0]LogCollectionManager: Loaded 0 collections in 0.000690 seconds
+[2017.08.25-09.51.29:140][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Saved/Collections/' took 0.01s
+[2017.08.25-09.51.29:140][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/Developers/Grego/Collections/' took 0.01s
+[2017.08.25-09.51.29:140][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/Collections/' took 0.01s
+[2017.08.25-09.51.29:140][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.25-09.51.29:292][  0]LogContentBrowser: Native class hierarchy populated in 0.0213 seconds. Added 2245 classes and 453 folders.
+[2017.08.25-09.51.29:517][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.25-09.51.29:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.25-09.51.29:606][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.25-09.51.33:111][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.25-09.51.33:197][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.25-09.51.34:366][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.25-09.51.34:466][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.25-09.51.34:646][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.25-09.51.34:646][  0]LogLoad: (Engine Initialization) Total time: 71.17 seconds
+[2017.08.25-09.51.34:646][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.85 seconds
+[2017.08.25-09.51.34:646][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.25-09.51.34:992][  0]LogOcInput: OculusInput pre-init called
+[2017.08.25-09.51.35:285][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.25-09.51.35:388][  0]LogSlate: Took 0.018015 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.25-09.51.35:401][  0]LogSlate: Took 0.009467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.25-09.51.35:445][  0]LogSlate: Took 0.020648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.25-09.51.35:940][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.08.25-09.51.35:940][  0]LogSlate: Took 0.022872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.25-09.51.36:826][  2]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.25-09.51.38:042][  2]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.08.25-09.51.42:078][  2]LogSlate: Took 0.049122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.25-09.51.43:630][  3]LogSlate: Took 0.080727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.25-09.51.44:275][  5]LogAssetRegistry: Asset discovery search completed in 54.5488 seconds
+[2017.08.25-09.51.44:275][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2017.08.25-09.51.44:275][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
+[2017.08.25-10.28.09:901][293]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.25-10.28.20:234][407]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.25-10.29.11:506][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForSprites/Objects/trozoObra" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/Objects/trozoObra.uasset" SILENT=true
+[2017.08.25-10.29.11:520][540]LogSavePackage: Save=11.88ms
+[2017.08.25-10.29.11:520][540]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/trozoObra1CE5824947591C0C8F5438933872EB4E.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/Objects/trozoObra.uasset'
+[2017.08.25-10.29.11:533][540]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/Objects/trozoObra.uasset
+[2017.08.25-10.29.11:711][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-main" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-main.uasset" SILENT=true
+[2017.08.25-10.29.12:467][540]LogSavePackage: Save=49.94ms
+[2017.08.25-10.29.12:467][540]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-main047C8D4144B06BA722C9E0BEEC96A72C.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-main.uasset'
+[2017.08.25-10.29.12:470][540]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-main.uasset
+[2017.08.25-10.29.12:483][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/trozoObra_Sprite" FILE="../../../../../TFG/CreativeKeepers/Content/Sprites/trozoObra_Sprite.uasset" SILENT=true
+[2017.08.25-10.29.12:510][540]LogSavePackage: Save=4.45ms
+[2017.08.25-10.29.12:510][540]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/trozoObra_Sprite2865D76143EC67242BDBBE95284A0CBA.tmp' to '../../../../../TFG/CreativeKeepers/Content/Sprites/trozoObra_Sprite.uasset'
+[2017.08.25-10.29.12:511][540]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Sprites/trozoObra_Sprite.uasset
+[2017.08.25-10.29.26:472][652]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\MATERIALES\faseButtonHover.png)
+[2017.08.25-10.29.26:491][652]LogTexture:Display: Building textures: faseButtonHover (BGRA8, 80X79) - 83 MB total VRAM
+[2017.08.25-10.29.26:498][652]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\MATERIALES\faseButton.png)
+[2017.08.25-10.29.26:500][652]LogTexture:Display: Building textures: faseButton (BGRA8, 80X79) - 83 MB total VRAM
+[2017.08.25-10.29.26:507][652]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\MATERIALES\faseButtonGris.png)
+[2017.08.25-10.29.26:510][652]LogTexture:Display: Building textures: faseButtonGris (BGRA8, 80X79) - 83 MB total VRAM
+[2017.08.25-10.29.34:956][437]LogAIModule: Creating AISystem for world base
+[2017.08.25-10.29.36:339][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForSprites/faseButton" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButton.uasset" SILENT=true
+[2017.08.25-10.29.36:343][437]LogSavePackage: Save=2.14ms
+[2017.08.25-10.29.36:343][437]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/faseButton9F90180644CA38ED1C0576A85D71A0F8.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButton.uasset'
+[2017.08.25-10.29.36:346][437]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButton.uasset
+[2017.08.25-10.29.36:347][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForSprites/faseButtonGris" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButtonGris.uasset" SILENT=true
+[2017.08.25-10.29.36:351][437]LogSavePackage: Save=2.25ms
+[2017.08.25-10.29.36:351][437]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/faseButtonGrisA98BBC724483952E83399A9C8AB5EAD5.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButtonGris.uasset'
+[2017.08.25-10.29.36:353][437]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButtonGris.uasset
+[2017.08.25-10.29.36:354][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForSprites/faseButtonHover" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButtonHover.uasset" SILENT=true
+[2017.08.25-10.29.36:368][437]LogSavePackage: Save=2.28ms
+[2017.08.25-10.29.36:368][437]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/faseButtonHover4427128D4EA1C25407CCC6B6110A4D9A.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButtonHover.uasset'
+[2017.08.25-10.29.36:371][437]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseButtonHover.uasset
+[2017.08.25-10.29.36:372][437]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/Levels/base.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.25-10.29.36:372][437]LightingResults: New page: Lighting Build
+[2017.08.25-10.29.36:373][437]LoadErrors: New page: Loading map: base.umap
+[2017.08.25-10.29.36:374][437]MapCheck: New page: Map Check
+[2017.08.25-10.29.36:374][437]LightingResults: New page: Lighting Build
+[2017.08.25-10.29.36:547][437]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.25-10.29.36:571][437]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.25-10.29.36:602][437]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.976ms to complete.
+[2017.08.25-10.29.36:602][437]LogFileHelpers: Loading map 'base' took 0.230
+[2017.08.25-10.29.36:603][437]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.25-10.31.39:304][258]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-10.31.39:322][258]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.31.39:323][258]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.25-10.31.39:323][258]LogPlayLevel: [PlayLevel] Compiling hud-faseSelector before play...
+[2017.08.25-10.31.39:488][258]LogPlayLevel: PlayLevel: Blueprint regeneration took 165 ms (1 blueprints)
+[2017.08.25-10.31.39:509][258]PIE: New page: PIE session: base (Aug 25, 2017, 2:31:39 PM)
+[2017.08.25-10.31.39:520][258]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-10.31.39:528][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007138s)
+[2017.08.25-10.31.39:528][258]LogAIModule: Creating AISystem for world base
+[2017.08.25-10.31.39:528][258]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.08.25-10.31.39:528][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.018797s)
+[2017.08.25-10.31.39:557][258]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-10.31.39:566][258]LogInit: FAudioDevice initialized.
+[2017.08.25-10.31.39:641][258]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-10.31.39:642][258]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-12.31.39
+[2017.08.25-10.31.39:659][258]LogWorld: Bringing up level for play took: 0.018043
+[2017.08.25-10.31.39:695][258]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-10.31.39:722][258]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.25-10.31.39:779][258]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base -0.411
+[2017.08.25-10.31.39:790][258]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.31.39:832][258]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:6198).
+[2017.08.25-10.31.40:962][372]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.31.42:603][567]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.31.43:496][674]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.31.43:895][722]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.31.48:821][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.31.48:864][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.33.01:075][687]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\MATERIALES\obraCompleta.png)
+[2017.08.25-10.33.01:079][687]LogTexture:Display: Building textures: obraCompleta (AutoDXT, 200X200) - 77 MB total VRAM
+[2017.08.25-10.33.04:851][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForSprites/Objects/obraCompleta" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/Objects/obraCompleta.uasset" SILENT=true
+[2017.08.25-10.33.04:856][823]LogSavePackage: Save=4.08ms
+[2017.08.25-10.33.04:856][823]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/obraCompleta94D651B344F983B24A4E70BF5B7CC76E.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/Objects/obraCompleta.uasset'
+[2017.08.25-10.33.04:858][823]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/Objects/obraCompleta.uasset
+[2017.08.25-10.34.06:256][137]LogEditorTransaction: Undo Edit Bottom
+[2017.08.25-10.34.06:617][173]LogEditorTransaction: Undo Edit Right
+[2017.08.25-10.34.32:941][313]LogEditorTransaction: Undo Edit Bottom
+[2017.08.25-10.34.33:101][325]LogEditorTransaction: Undo Edit Right
+[2017.08.25-10.35.10:008][379]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-10.35.10:025][379]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.35.10:025][379]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.25-10.35.10:025][379]LogPlayLevel: [PlayLevel] Compiling hud-faseSelector before play...
+[2017.08.25-10.35.10:182][379]LogPlayLevel: PlayLevel: Blueprint regeneration took 157 ms (1 blueprints)
+[2017.08.25-10.35.10:182][379]PIE: New page: PIE session: base (Aug 25, 2017, 2:35:10 PM)
+[2017.08.25-10.35.10:182][379]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-10.35.10:185][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003081s)
+[2017.08.25-10.35.10:186][379]LogAIModule: Creating AISystem for world base
+[2017.08.25-10.35.10:186][379]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2017.08.25-10.35.10:186][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.003751s)
+[2017.08.25-10.35.10:215][379]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-10.35.10:224][379]LogInit: FAudioDevice initialized.
+[2017.08.25-10.35.10:264][379]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-10.35.10:266][379]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-12.35.10
+[2017.08.25-10.35.10:266][379]LogWorld: Bringing up level for play took: 0.001609
+[2017.08.25-10.35.10:267][379]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-10.35.10:275][379]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base 0.085
+[2017.08.25-10.35.10:276][379]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.35.10:824][421]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.35.12:591][633]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.35.13:232][710]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.35.13:732][770]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.35.15:749][ 12]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.35.44:771][494]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.35.44:815][494]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.37.55:623][ 52]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-10.37.55:639][ 52]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.37.55:639][ 52]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.25-10.37.55:639][ 52]LogPlayLevel: [PlayLevel] Compiling hud-faseSelector before play...
+[2017.08.25-10.37.55:765][ 52]LogPlayLevel: PlayLevel: Blueprint regeneration took 125 ms (1 blueprints)
+[2017.08.25-10.37.55:765][ 52]PIE: New page: PIE session: base (Aug 25, 2017, 2:37:55 PM)
+[2017.08.25-10.37.55:765][ 52]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-10.37.55:768][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002817s)
+[2017.08.25-10.37.55:769][ 52]LogAIModule: Creating AISystem for world base
+[2017.08.25-10.37.55:769][ 52]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2017.08.25-10.37.55:769][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.003522s)
+[2017.08.25-10.37.55:796][ 52]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-10.37.55:806][ 52]LogInit: FAudioDevice initialized.
+[2017.08.25-10.37.55:844][ 52]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-10.37.55:846][ 52]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-12.37.55
+[2017.08.25-10.37.55:846][ 52]LogWorld: Bringing up level for play took: 0.001631
+[2017.08.25-10.37.55:847][ 52]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-10.37.55:855][ 52]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base -0.336
+[2017.08.25-10.37.55:855][ 52]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.37.58:144][307]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.37.59:701][494]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.38.04:009][  7]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.38.04:518][ 68]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.38.05:018][128]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.38.10:052][732]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.38.10:093][732]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.40.33:981][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/base' took 0.040
+[2017.08.25-10.40.34:299][630]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDs/Base/hud-faseSelector] ([1] browsable assets)...
+[2017.08.25-10.40.34:299][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDs/Base/hud-faseSelector]
+[2017.08.25-10.40.34:299][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.25-10.40.34:356][630]LogSavePackage: Save=15.89ms
+[2017.08.25-10.40.34:356][630]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector_Auto12CCFB5FE467AAD2ECBF0C6A2D0823FF9.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto1.uasset'
+[2017.08.25-10.40.34:507][630]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto1.uasset
+[2017.08.25-10.40.34:507][630]LogFileHelpers: Auto-saving content packages took 0.525
+[2017.08.25-10.45.22:119][534]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\MATERIALES\faseJefeButtonHover.png)
+[2017.08.25-10.45.22:123][534]LogTexture:Display: Building textures: faseJefeButtonHover (BGRA8, 80X79) - 77 MB total VRAM
+[2017.08.25-10.45.22:129][534]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\MATERIALES\faseJefeButton.png)
+[2017.08.25-10.45.22:131][534]LogTexture:Display: Building textures: faseJefeButton (BGRA8, 80X79) - 77 MB total VRAM
+[2017.08.25-10.45.24:691][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForSprites/faseJefeButton" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseJefeButton.uasset" SILENT=true
+[2017.08.25-10.45.24:694][828]LogSavePackage: Save=1.73ms
+[2017.08.25-10.45.24:694][828]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/faseJefeButtonE897FB6A42ED8F4302A537BAD4CC9F68.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseJefeButton.uasset'
+[2017.08.25-10.45.24:697][828]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseJefeButton.uasset
+[2017.08.25-10.45.24:700][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForSprites/faseJefeButtonHover" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseJefeButtonHover.uasset" SILENT=true
+[2017.08.25-10.45.24:703][828]LogSavePackage: Save=1.75ms
+[2017.08.25-10.45.24:703][828]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/faseJefeButtonHover6A1F3BEE4290F131ACB396BFC4FC7E5B.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseJefeButtonHover.uasset'
+[2017.08.25-10.45.24:705][828]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForSprites/faseJefeButtonHover.uasset
+[2017.08.25-10.50.27:448][939]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-10.50.27:466][939]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.50.27:466][939]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.25-10.50.27:466][939]LogPlayLevel: [PlayLevel] Compiling hud-faseSelector before play...
+[2017.08.25-10.50.27:562][939]LogPlayLevel: PlayLevel: Blueprint regeneration took 96 ms (1 blueprints)
+[2017.08.25-10.50.27:562][939]PIE: New page: PIE session: base (Aug 25, 2017, 2:50:27 PM)
+[2017.08.25-10.50.27:563][939]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-10.50.27:566][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003476s)
+[2017.08.25-10.50.27:567][939]LogAIModule: Creating AISystem for world base
+[2017.08.25-10.50.27:567][939]LogPlayLevel: PIE: World Init took: (0.000594s)
+[2017.08.25-10.50.27:567][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.004249s)
+[2017.08.25-10.50.27:595][939]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-10.50.27:605][939]LogInit: FAudioDevice initialized.
+[2017.08.25-10.50.27:648][939]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-10.50.27:650][939]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-12.50.27
+[2017.08.25-10.50.27:650][939]LogWorld: Bringing up level for play took: 0.001660
+[2017.08.25-10.50.27:650][939]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-10.50.27:659][939]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base -0.532
+[2017.08.25-10.50.27:659][939]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.50.28:884][ 79]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-10.50.47:630][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.50.47:674][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-10.51.40:498][297]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/base' took 0.026
+[2017.08.25-10.51.40:500][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDs/Base/hud-faseSelector] ([1] browsable assets)...
+[2017.08.25-10.51.40:500][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDs/Base/hud-faseSelector]
+[2017.08.25-10.51.40:500][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.25-10.51.40:529][297]LogSavePackage: Save=8.53ms
+[2017.08.25-10.51.40:529][297]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector_Auto28053C84341DC1921E92FEF9A327D8207.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto2.uasset'
+[2017.08.25-10.51.40:530][297]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto2.uasset
+[2017.08.25-10.51.40:530][297]LogFileHelpers: Auto-saving content packages took 0.032
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_1.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_39:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_7.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_10.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_18:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_0.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_2.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_4.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_6.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:hud-galeria_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_5.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_3.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.09:284][899]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.bt-fase1).  Import failed...
+[2017.08.25-10.53.09:284][899]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2017.08.25-10.53.12:568][265]LogEditorTransaction: Undo Move Widget
+[2017.08.25-10.53.16:579][735]LogEditorTransaction: Undo Paste clipboard contents
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_11.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_1.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_39:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_7.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_10.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_9.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_18:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_0.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_2.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_4.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_6.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:hud-galeria_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_12.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_8.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_5.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_3.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.21:025][244]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.bt-fase1).  Import failed...
+[2017.08.25-10.53.21:025][244]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_11.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_13.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_15.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_1.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_39:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_7.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_10.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_9.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_14.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_18:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_0.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_2.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_4.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_6.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:hud-galeria_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_17.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_12.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_8.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_5.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_3.WidgetTree.CanvasPanel_0
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-galeria.hud-galeria:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_11.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_9.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-faseSelector.hud-faseSelector:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-galeria.hud-galeria_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_3:hud-galeria_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_8.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:REINST_hud-faseSelector_C_1.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_3.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_10.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.REINST_hud-faseSelector_C_39:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_12.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-faseSelector.hud-faseSelector_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_13.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_14.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_15.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_17.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.53.56:119][349]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3) from referencer (Image /Engine/UMG/Editor/Transient.img-fase1).  Import failed...
+[2017.08.25-10.53.56:119][349]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_3''
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_11.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_13.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_15.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_1.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_39:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_7.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_10.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_9.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_14.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_18:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_0.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_2.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_4.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_6.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:hud-galeria_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_17.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_18.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_12.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_19.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_20.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_21.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_8.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_5.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_3.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_22.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_23.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_24.WidgetTree.CanvasPanel_0
+[2017.08.25-10.56.06:599][871]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2) from referencer (Button /Engine/UMG/Editor/Transient.bt-fase1).  Import failed...
+[2017.08.25-10.56.06:599][871]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_2''
+[2017.08.25-10.56.11:561][430]LogEditorTransaction: Undo Move Widget
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_11.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_13.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-dialogos.hud-dialogos_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-loading.hud-loading_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_15.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/hud-mouseCursor.hud-mouseCursor_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_1.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_39:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_7.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_10.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hudbutton-galeria.hudbutton-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_9.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-galeria.hud-galeria_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_14.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_18:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:REINST_hud-faseSelector_C_0.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_2.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_4.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_6.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-guardar.hud-guardar:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_3:hud-galeria_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/HUDs/Base/hud-faseSelector.hud-faseSelector_C:WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_16.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_17.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_18.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_12.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_19.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_20.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_21.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_8.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_5.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_3.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_22.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:709][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_23.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_24.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_25.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_26.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_27.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_28.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Engine/Transient.REINST_hud-faseSelector_C_26:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_5:hud-faseSelector_C_29.WidgetTree.CanvasPanel_0
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-galeria.hud-galeria:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_11.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_9.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_4.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-faseSelector.hud-faseSelector:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-galeria.hud-galeria_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_3:hud-galeria_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_7.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_8.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:REINST_hud-faseSelector_C_1.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_5.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_6.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_3.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_10.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.REINST_hud-faseSelector_C_39:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_12.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Game/HUDs/Base/hud-faseSelector.hud-faseSelector_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_13.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_14.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_15.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_16.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_17.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_18.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_19.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_20.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_21.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_22.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_23.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_24.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_25.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_26.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_27.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_28.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3 or CanvasPanelSlot /Engine/Transient.World_5:hud-faseSelector_C_29.WidgetTree.CanvasPanel_0.CanvasPanelSlot_3
+[2017.08.25-10.58.10:710][655]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/HUDs/Base/hud-guardar.hud-guardar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3) from referencer (Image /Engine/UMG/Editor/Transient.img-fase1).  Import failed...
+[2017.08.25-10.58.10:710][655]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_3''
+[2017.08.25-11.02.56:594][667]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/base' took 0.036
+[2017.08.25-11.02.56:595][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDs/Base/hud-faseSelector] ([1] browsable assets)...
+[2017.08.25-11.02.56:595][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDs/Base/hud-faseSelector]
+[2017.08.25-11.02.56:595][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.25-11.02.56:626][667]LogSavePackage: Save=10.00ms
+[2017.08.25-11.02.56:626][667]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector_Auto33B3A0EE746C425C07E6D0DA7750D5152.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto3.uasset'
+[2017.08.25-11.02.56:628][667]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto3.uasset
+[2017.08.25-11.02.56:628][667]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.08.25-11.05.12:823][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset" SILENT=true
+[2017.08.25-11.05.12:855][989]LogSavePackage: Save=10.08ms
+[2017.08.25-11.05.12:855][989]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelectorA718596C42554398D9ECE7A0BFACCB50.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset'
+[2017.08.25-11.05.12:857][989]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset
+[2017.08.25-11.05.14:293][161]BlueprintLog: New page: Compile hud-faseSelector
+[2017.08.25-11.15.28:765][429]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/base' took 0.030
+[2017.08.25-11.15.28:767][429]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDs/Base/hud-faseSelector] ([1] browsable assets)...
+[2017.08.25-11.15.28:767][429]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDs/Base/hud-faseSelector]
+[2017.08.25-11.15.28:767][429]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.25-11.15.28:816][429]LogSavePackage: Save=27.59ms
+[2017.08.25-11.15.28:816][429]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector_Auto4CFB9D9E0492F5D77CB5964AF7823201C.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto4.uasset'
+[2017.08.25-11.15.28:817][429]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto4.uasset
+[2017.08.25-11.15.28:817][429]LogFileHelpers: Auto-saving content packages took 0.051
+[2017.08.25-11.16.43:162][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset" SILENT=true
+[2017.08.25-11.16.43:203][324]LogSavePackage: Save=18.55ms
+[2017.08.25-11.16.43:203][324]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector3B0B30F24AD8C0D89345F1AE54102C1C.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset'
+[2017.08.25-11.16.43:206][324]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset
+[2017.08.25-11.16.45:635][615]BlueprintLog: New page: Compile hud-faseSelector
+[2017.08.25-11.21.39:704][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset" SILENT=true
+[2017.08.25-11.21.39:751][691]LogSavePackage: Save=23.85ms
+[2017.08.25-11.21.39:751][691]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector96A5E4BE4008F7AF8208BBB377E03FD9.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset'
+[2017.08.25-11.21.39:754][691]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset
+[2017.08.25-11.21.40:254][749]BlueprintLog: New page: Compile hud-faseSelector
+[2017.08.25-11.21.45:300][340]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-11.21.45:313][340]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.21.45:313][340]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.25-11.21.45:313][340]PIE: New page: PIE session: base (Aug 25, 2017, 3:21:45 PM)
+[2017.08.25-11.21.45:313][340]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-11.21.45:317][340]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003460s)
+[2017.08.25-11.21.45:317][340]LogAIModule: Creating AISystem for world base
+[2017.08.25-11.21.45:317][340]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2017.08.25-11.21.45:318][340]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.004406s)
+[2017.08.25-11.21.45:346][340]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-11.21.45:356][340]LogInit: FAudioDevice initialized.
+[2017.08.25-11.21.45:394][340]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-11.21.45:396][340]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-13.21.45
+[2017.08.25-11.21.45:396][340]LogWorld: Bringing up level for play took: 0.001963
+[2017.08.25-11.21.45:397][340]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-11.21.45:406][340]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base -0.785
+[2017.08.25-11.21.45:406][340]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.21.46:750][494]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.21.48:640][721]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.21.49:365][808]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.21.49:857][867]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.19:834][464]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.20:109][497]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.21:477][661]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.22:484][782]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.23:644][921]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.26:053][210]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.32:595][995]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.33:777][137]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.34:194][187]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.34:394][211]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.34:561][231]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.34:744][253]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.35:178][305]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.35:578][353]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.35:769][376]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.38:346][685]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.38:803][740]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.39:086][774]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.39:353][806]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.39:577][833]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.39:802][860]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.40:103][896]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.46:853][703]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.47:502][781]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.48:002][841]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.50:454][135]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.22.59:662][240]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.23.00:044][286]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.23.10:817][577]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.23.11:541][664]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.23.27:575][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.23.27:618][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.25.30:432][208]LogEditorTransaction: Undo Move Node
+[2017.08.25-11.25.30:599][223]LogEditorTransaction: Undo Add Node
+[2017.08.25-11.25.30:764][239]LogEditorTransaction: Undo Delete current selection
+[2017.08.25-11.25.31:854][365]LogEditorTransaction: Undo Delete current selection
+[2017.08.25-11.25.32:212][404]LogEditorTransaction: Undo Delete current selection
+[2017.08.25-11.27.52:884][139]BlueprintLog: New page: Compile hud-faseSelector
+[2017.08.25-11.27.53:349][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset" SILENT=true
+[2017.08.25-11.27.53:396][177]LogSavePackage: Save=27.03ms
+[2017.08.25-11.27.53:396][177]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector0283E01746282B38B634709186AA0A34.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset'
+[2017.08.25-11.27.53:399][177]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset
+[2017.08.25-11.27.54:126][262]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-11.27.54:143][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.27.54:143][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.25-11.27.54:143][262]PIE: New page: PIE session: base (Aug 25, 2017, 3:27:54 PM)
+[2017.08.25-11.27.54:143][262]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-11.27.54:147][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003085s)
+[2017.08.25-11.27.54:147][262]LogAIModule: Creating AISystem for world base
+[2017.08.25-11.27.54:147][262]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2017.08.25-11.27.54:147][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.003861s)
+[2017.08.25-11.27.54:175][262]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-11.27.54:184][262]LogInit: FAudioDevice initialized.
+[2017.08.25-11.27.54:223][262]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-11.27.54:225][262]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-13.27.54
+[2017.08.25-11.27.54:225][262]LogWorld: Bringing up level for play took: 0.001852
+[2017.08.25-11.27.54:226][262]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-11.27.54:234][262]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base 0.043
+[2017.08.25-11.27.54:235][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.27.54:661][309]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.27.55:451][404]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.27.55:593][421]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.27.55:751][440]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.27.55:910][459]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.27.56:085][480]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.27.56:260][501]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.28.00:302][986]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.28.00:977][ 67]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.28.29:678][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.28.29:725][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.29.44:268][356]BlueprintLog: New page: Compile hud-faseSelector
+[2017.08.25-11.29.44:855][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset" SILENT=true
+[2017.08.25-11.29.44:906][407]LogSavePackage: Save=27.90ms
+[2017.08.25-11.29.44:906][407]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector538C582E48C3532EDF4D89A9B115498C.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset'
+[2017.08.25-11.29.44:909][407]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset
+[2017.08.25-11.29.49:389][942]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-11.29.49:406][942]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.29.49:406][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.25-11.29.49:406][942]PIE: New page: PIE session: base (Aug 25, 2017, 3:29:49 PM)
+[2017.08.25-11.29.49:407][942]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-11.29.49:410][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002889s)
+[2017.08.25-11.29.49:410][942]LogAIModule: Creating AISystem for world base
+[2017.08.25-11.29.49:410][942]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2017.08.25-11.29.49:410][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.003676s)
+[2017.08.25-11.29.49:438][942]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-11.29.49:448][942]LogInit: FAudioDevice initialized.
+[2017.08.25-11.29.49:485][942]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-11.29.49:487][942]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-13.29.49
+[2017.08.25-11.29.49:487][942]LogWorld: Bringing up level for play took: 0.001634
+[2017.08.25-11.29.49:488][942]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-11.29.49:496][942]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base -0.694
+[2017.08.25-11.29.49:497][942]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.29.50:626][ 70]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.29.52:725][322]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.29.53:583][425]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.29.56:358][758]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.29.59:111][ 86]LogNet: Browse: /Game/Levels/fase1
+[2017.08.25-11.29.59:112][ 86]LogLoad: LoadMap: /Game/Levels/fase1
+[2017.08.25-11.29.59:143][ 86]Cmd: MEM
+[2017.08.25-11.29.59:203][ 86]LogMemory: Platform Memory Stats for Windows
+[2017.08.25-11.29.59:203][ 86]LogMemory: Process Physical Memory: 725.31 MB used, 1180.04 MB peak
+[2017.08.25-11.29.59:203][ 86]LogMemory: Process Virtual Memory: 1970.99 MB used, 2025.71 MB peak
+[2017.08.25-11.29.59:203][ 86]LogMemory: Physical Memory: 3639.64 MB used,  4515.44 MB free, 8155.07 MB total
+[2017.08.25-11.29.59:203][ 86]LogMemory: Virtual Memory: 2852.77 MB used,  4515.44 MB free, 134217728.00 MB total
+[2017.08.25-11.29.59:203][ 86]LogMemory: 
+[2017.08.25-11.29.59:203][ 86]Allocator Stats for TBB: (not implemented)
+[2017.08.25-11.30.00:041][ 86]LogAIModule: Creating AISystem for world fase1
+[2017.08.25-11.30.00:157][ 86]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.25-11.30.00:182][ 86]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.25-13.30.00
+[2017.08.25-11.30.00:184][ 86]LogWorld: Bringing up level for play took: 0.026916
+[2017.08.25-11.30.00:241][ 86]LogLoad: Took 1.129112 seconds to LoadMap(/Game/Levels/fase1)
+[2017.08.25-11.30.06:721][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.30.06:770][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.31.12:900][777]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-11.31.12:913][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.31.12:913][777]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.25-11.31.12:913][777]LogPlayLevel: [PlayLevel] Compiling hud-faseSelector before play...
+[2017.08.25-11.31.13:022][777]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2017.08.25-11.31.13:022][777]PIE: New page: PIE session: base (Aug 25, 2017, 3:31:13 PM)
+[2017.08.25-11.31.13:022][777]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-11.31.13:025][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002919s)
+[2017.08.25-11.31.13:026][777]LogAIModule: Creating AISystem for world base
+[2017.08.25-11.31.13:026][777]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2017.08.25-11.31.13:026][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.003859s)
+[2017.08.25-11.31.13:053][777]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-11.31.13:062][777]LogInit: FAudioDevice initialized.
+[2017.08.25-11.31.13:105][777]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-11.31.13:107][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-13.31.13
+[2017.08.25-11.31.13:107][777]LogWorld: Bringing up level for play took: 0.001722
+[2017.08.25-11.31.13:107][777]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-11.31.13:116][777]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base 0.925
+[2017.08.25-11.31.13:116][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.31.13:948][865]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.31.15:847][ 93]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.31.16:047][117]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.31.16:347][153]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.31.16:722][198]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.31.20:797][687]LogNet: Browse: /Game/Levels/fase1
+[2017.08.25-11.31.20:797][687]LogLoad: LoadMap: /Game/Levels/fase1
+[2017.08.25-11.31.20:824][687]Cmd: MEM
+[2017.08.25-11.31.20:850][687]LogMemory: Platform Memory Stats for Windows
+[2017.08.25-11.31.20:850][687]LogMemory: Process Physical Memory: 855.64 MB used, 1180.04 MB peak
+[2017.08.25-11.31.20:850][687]LogMemory: Process Virtual Memory: 2011.61 MB used, 2112.46 MB peak
+[2017.08.25-11.31.20:850][687]LogMemory: Physical Memory: 3709.04 MB used,  4446.03 MB free, 8155.07 MB total
+[2017.08.25-11.31.20:850][687]LogMemory: Virtual Memory: 2902.83 MB used,  4446.03 MB free, 134217728.00 MB total
+[2017.08.25-11.31.20:850][687]LogMemory: 
+[2017.08.25-11.31.20:850][687]Allocator Stats for TBB: (not implemented)
+[2017.08.25-11.31.20:958][687]LogAIModule: Creating AISystem for world fase1
+[2017.08.25-11.31.21:037][687]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.25-11.31.21:055][687]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.25-13.31.21
+[2017.08.25-11.31.21:057][687]LogWorld: Bringing up level for play took: 0.019416
+[2017.08.25-11.31.21:062][687]LogLoad: Took 0.264330 seconds to LoadMap(/Game/Levels/fase1)
+[2017.08.25-11.35.14:910][727]LogNet: Browse: /Game/Levels/base
+[2017.08.25-11.35.14:910][727]LogLoad: LoadMap: /Game/Levels/base
+[2017.08.25-11.35.14:941][727]Cmd: MEM
+[2017.08.25-11.35.14:966][727]LogMemory: Platform Memory Stats for Windows
+[2017.08.25-11.35.14:966][727]LogMemory: Process Physical Memory: 849.86 MB used, 1180.04 MB peak
+[2017.08.25-11.35.14:966][727]LogMemory: Process Virtual Memory: 2003.67 MB used, 2112.46 MB peak
+[2017.08.25-11.35.14:966][727]LogMemory: Physical Memory: 3687.86 MB used,  4467.21 MB free, 8155.07 MB total
+[2017.08.25-11.35.14:966][727]LogMemory: Virtual Memory: 2938.83 MB used,  4467.21 MB free, 134217728.00 MB total
+[2017.08.25-11.35.14:966][727]LogMemory: 
+[2017.08.25-11.35.14:966][727]Allocator Stats for TBB: (not implemented)
+[2017.08.25-11.35.14:966][727]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-11.35.14:969][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003078s)
+[2017.08.25-11.35.14:970][727]LogAIModule: Creating AISystem for world base
+[2017.08.25-11.35.14:970][727]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2017.08.25-11.35.14:970][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.003852s)
+[2017.08.25-11.35.14:970][727]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-11.35.14:972][727]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-13.35.14
+[2017.08.25-11.35.14:972][727]LogWorld: Bringing up level for play took: 0.001408
+[2017.08.25-11.35.14:973][727]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-11.35.14:979][727]LogLoad: Took 0.068727 seconds to LoadMap(/Game/Levels/UEDPIE_0_base)
+[2017.08.25-11.35.31:537][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.35.31:583][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.36.05:554][777]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/base' took 0.025
+[2017.08.25-11.36.05:556][777]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HUDs/Base/hud-faseSelector] ([1] browsable assets)...
+[2017.08.25-11.36.05:556][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/HUDs/Base/hud-faseSelector]
+[2017.08.25-11.36.05:556][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.25-11.36.05:605][777]LogSavePackage: Save=27.44ms
+[2017.08.25-11.36.05:605][777]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector_Auto50EE160014672A9F16C0EB5A4314CAFDB.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto5.uasset'
+[2017.08.25-11.36.05:607][777]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/HUDs/Base/hud-faseSelector_Auto5.uasset
+[2017.08.25-11.36.05:607][777]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.08.25-11.36.43:572][251]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.25-11.36.43:586][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.36.43:586][251]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.25-11.36.43:586][251]LogPlayLevel: [PlayLevel] Compiling hud-faseSelector before play...
+[2017.08.25-11.36.43:703][251]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2017.08.25-11.36.43:703][251]PIE: New page: PIE session: base (Aug 25, 2017, 3:36:43 PM)
+[2017.08.25-11.36.43:703][251]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_base
+[2017.08.25-11.36.43:706][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002820s)
+[2017.08.25-11.36.43:706][251]LogAIModule: Creating AISystem for world base
+[2017.08.25-11.36.43:706][251]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2017.08.25-11.36.43:707][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/base.base to /Game/Levels/UEDPIE_0_base.base (0.003506s)
+[2017.08.25-11.36.43:735][251]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.25-11.36.43:744][251]LogInit: FAudioDevice initialized.
+[2017.08.25-11.36.43:786][251]LogLoad: Game class is 'misc-gameModeBase_C'
+[2017.08.25-11.36.43:787][251]LogWorld: Bringing World /Game/Levels/UEDPIE_0_base.base up for play (max tick rate 0) at 2017.08.25-13.36.43
+[2017.08.25-11.36.43:788][251]LogWorld: Bringing up level for play took: 0.001726
+[2017.08.25-11.36.43:788][251]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2017.08.25-11.36.43:797][251]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_base -0.394
+[2017.08.25-11.36.43:798][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.36.45:526][448]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.36.47:283][659]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.36.47:975][742]LogBlueprintUserMessages: [pawn-elfen-base_C_0] 
+[2017.08.25-11.36.50:525][ 48]LogNet: Browse: /Game/Levels/fase1
+[2017.08.25-11.36.50:525][ 48]LogLoad: LoadMap: /Game/Levels/fase1
+[2017.08.25-11.36.50:554][ 48]Cmd: MEM
+[2017.08.25-11.36.50:579][ 48]LogMemory: Platform Memory Stats for Windows
+[2017.08.25-11.36.50:580][ 48]LogMemory: Process Physical Memory: 883.66 MB used, 1180.04 MB peak
+[2017.08.25-11.36.50:580][ 48]LogMemory: Process Virtual Memory: 2095.59 MB used, 2112.46 MB peak
+[2017.08.25-11.36.50:580][ 48]LogMemory: Physical Memory: 3716.55 MB used,  4438.52 MB free, 8155.07 MB total
+[2017.08.25-11.36.50:580][ 48]LogMemory: Virtual Memory: 2987.71 MB used,  4438.52 MB free, 134217728.00 MB total
+[2017.08.25-11.36.50:580][ 48]LogMemory: 
+[2017.08.25-11.36.50:580][ 48]Allocator Stats for TBB: (not implemented)
+[2017.08.25-11.36.50:689][ 48]LogAIModule: Creating AISystem for world fase1
+[2017.08.25-11.36.50:773][ 48]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.25-11.36.50:791][ 48]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.25-13.36.50
+[2017.08.25-11.36.50:792][ 48]LogWorld: Bringing up level for play took: 0.019312
+[2017.08.25-11.36.50:797][ 48]LogLoad: Took 0.272560 seconds to LoadMap(/Game/Levels/fase1)
+[2017.08.25-11.36.50:982][ 70]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.36.51:031][ 70]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/base.base:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/base.base:PersistentLevel.base' with GeneratedClass '/Game/Levels/base.base_C' with ClassGeneratedBy '/Game/Levels/base.base:PersistentLevel.base'
+[2017.08.25-11.37.30:903][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset" SILENT=true
+[2017.08.25-11.37.30:952][985]LogSavePackage: Save=26.67ms
+[2017.08.25-11.37.30:952][985]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelector99FD89D0413FAA4F616228AC32EFE31E.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset'
+[2017.08.25-11.37.30:955][985]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset
+[2017.08.25-11.44.41:477][216]LogMetaData: Removing '/Game/HUDs/hud-gracias.SKEL_hud-gracias_C' ref from Metadata '/Game/HUDs/hud-graciasporjugar.PackageMetaData'
+[2017.08.25-11.44.41:477][216]LogMetaData: Removing '/Game/HUDs/hud-gracias.hud-gracias_C' ref from Metadata '/Game/HUDs/hud-graciasporjugar.PackageMetaData'
+[2017.08.25-11.44.41:477][216]LogMetaData: Removing '/Game/HUDs/hud-gracias.hud-gracias:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HUDs/hud-graciasporjugar.PackageMetaData'
+[2017.08.25-11.44.41:477][216]LogMetaData: Removing '/Game/HUDs/hud-gracias.hud-gracias:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HUDs/hud-graciasporjugar.PackageMetaData'
+[2017.08.25-11.44.41:493][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-gracias" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-gracias.uasset" SILENT=true
+[2017.08.25-11.44.41:498][216]LogSavePackage: Save=3.82ms
+[2017.08.25-11.44.41:498][216]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-gracias3A28309745E22D89600B3393F7F9FC10.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-gracias.uasset'
+[2017.08.25-11.44.41:500][216]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-gracias.uasset
+[2017.08.25-11.45.09:004][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/hud-graciasporjugar" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/hud-graciasporjugar.uasset" SILENT=true
+[2017.08.25-11.45.09:006][314]LogSavePackage: Save=0.76ms
+[2017.08.25-11.45.09:006][314]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-graciasporjugar2E56A128476C32A63C3046A42274BC54.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/hud-graciasporjugar.uasset'
+[2017.08.25-11.45.09:009][314]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/hud-graciasporjugar.uasset
+[2017.08.25-11.45.09:043][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/base" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/base.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.25-11.45.09:192][314]LogSavePackage: Save=101.19ms
+[2017.08.25-11.45.09:192][314]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/base1FEFBEFB47F3AE522353BABC07E2B0CC.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/base.umap'
+[2017.08.25-11.45.09:194][314]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/base.umap
+[2017.08.25-11.45.09:217][314]LogFileHelpers: Saving map 'base' took 0.208
+[2017.08.25-11.45.09:250][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase2" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.25-11.45.09:280][314]LogSavePackage: Save=5.29ms
+[2017.08.25-11.45.09:280][314]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase2C8C595A740EB375B0061728E35D9DCBA.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/fase2.umap'
+[2017.08.25-11.45.09:282][314]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/fase2.umap
+[2017.08.25-11.45.09:282][314]LogFileHelpers: Saving map 'fase2' took 0.065
+[2017.08.25-11.45.09:290][314]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.25-11.45.09:290][314]LightingResults: New page: Lighting Build
+[2017.08.25-11.45.09:292][314]LoadErrors: New page: Loading map: fase2.umap
+[2017.08.25-11.45.09:292][314]MapCheck: New page: Map Check
+[2017.08.25-11.45.09:292][314]LightingResults: New page: Lighting Build
+[2017.08.25-11.45.09:382][314]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.25-11.45.09:383][314]LogAIModule: Creating AISystem for world fase2
+[2017.08.25-11.45.09:407][314]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.25-11.45.09:438][314]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.602ms to complete.
+[2017.08.25-11.45.09:439][314]LogFileHelpers: Loading map 'fase2' took 0.150
+[2017.08.25-11.45.52:573][363]LogEditorTransaction: Undo Add Node
+[2017.08.25-11.46.33:187][194]BlueprintLog: New page: Compile fase2
+[2017.08.25-11.47.06:097][120]LogAIModule: Creating AISystem for world base
+[2017.08.25-11.47.07:173][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase2" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.25-11.47.07:296][120]LogSavePackage: Save=75.58ms
+[2017.08.25-11.47.07:296][120]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase2EEA5A8FB493CF1934D266296D0A63594.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/fase2.umap'
+[2017.08.25-11.47.07:298][120]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/fase2.umap
+[2017.08.25-11.47.07:320][120]LogFileHelpers: Saving map 'fase2' took 0.179
+[2017.08.25-11.47.07:321][120]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/Levels/base.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.25-11.47.07:321][120]LightingResults: New page: Lighting Build
+[2017.08.25-11.47.07:322][120]LoadErrors: New page: Loading map: base.umap
+[2017.08.25-11.47.07:323][120]MapCheck: New page: Map Check
+[2017.08.25-11.47.07:323][120]LightingResults: New page: Lighting Build
+[2017.08.25-11.47.07:448][120]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.25-11.47.07:471][120]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.25-11.47.07:503][120]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.084ms to complete.
+[2017.08.25-11.47.07:503][120]LogFileHelpers: Loading map 'base' took 0.183
+[2017.08.25-11.48.05:227][957]BlueprintLog: New page: Compile hud-faseSelector
+[2017.08.25-11.48.05:770][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HUDs/Base/hud-faseSelector" FILE="../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset" SILENT=true
+[2017.08.25-11.48.05:819][  1]LogSavePackage: Save=27.73ms
+[2017.08.25-11.48.05:819][  1]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/hud-faseSelectorA3260D4A4B76CD4B429D90969A4DDAD3.tmp' to '../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset'
+[2017.08.25-11.48.05:822][  1]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/HUDs/Base/hud-faseSelector.uasset
+[2017.08.25-11.50.45:502][750]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (sky_Sprite22)
+[2017.08.25-11.50.46:664][864]LogEditorViewport: Clicking Background
+[2017.08.25-12.04.49:727][584]LogEditorViewport: Clicking Background
+[2017.08.25-12.04.51:746][774]Cmd: QUIT_EDITOR
+[2017.08.25-12.04.52:684][774]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.25-12.04.52:726][774]LogExit: Preparing to exit.
+[2017.08.25-12.04.53:385][774]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Content/' was aborted.
+[2017.08.25-12.04.53:513][774]LogExit: Editor shut down
+[2017.08.25-12.04.53:517][774]LogExit: Transaction tracking system shut down
+[2017.08.25-12.04.54:343][774]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.25-12.04.54:343][774]LogExit: Object subsystem successfully closed.
+[2017.08.25-12.04.54:489][774]LogD3D11RHI: Shutdown
+[2017.08.25-12.04.54:489][774]LogD3D11RHI: CleanupD3DDevice
+[2017.08.25-12.04.54:585][774]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.25-12.04.55:222][774]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.08.25-12.04.55:222][774]LogModuleManager: Shutting down and abandoning module SequencerWidgets (504)
+[2017.08.25-12.04.55:222][774]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.08.25-12.04.55:222][774]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.08.25-12.04.55:228][774]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.08.25-12.04.55:238][774]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.08.25-12.04.55:247][774]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.08.25-12.04.55:247][774]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.08.25-12.04.55:255][774]LogDirectoryWatcher: A directory notification for 'D:/Programas/UE_4.15/FeaturePacks/' was aborted.
+[2017.08.25-12.04.55:260][774]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.08.25-12.04.55:260][774]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.08.25-12.04.55:260][774]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.08.25-12.04.55:268][774]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Content/Collections/' was aborted.
+[2017.08.25-12.04.55:268][774]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Content/Developers/Grego/Collections/' was aborted.
+[2017.08.25-12.04.55:268][774]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Saved/Collections/' was aborted.
+[2017.08.25-12.04.55:268][774]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.08.25-12.04.55:275][774]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.08.25-12.04.55:275][774]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.08.25-12.04.55:281][774]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.08.25-12.04.55:281][774]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.08.25-12.04.55:281][774]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.08.25-12.04.55:281][774]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.08.25-12.04.55:281][774]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.08.25-12.04.55:292][774]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.08.25-12.04.55:300][774]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.08.25-12.04.55:304][774]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.08.25-12.04.55:308][774]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.08.25-12.04.55:318][774]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.08.25-12.04.55:342][774]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.08.25-12.04.55:347][774]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.08.25-12.04.55:364][774]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.08.25-12.04.55:364][774]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.08.25-12.04.55:364][774]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.08.25-12.04.55:364][774]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.08.25-12.04.55:364][774]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.08.25-12.04.55:378][774]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.08.25-12.04.55:388][774]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.08.25-12.04.55:393][774]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.08.25-12.04.55:393][774]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.08.25-12.04.55:393][774]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.08.25-12.04.55:393][774]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.08.25-12.04.55:401][774]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.08.25-12.04.55:740][774]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.08.25-12.04.55:740][774]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.08.25-12.04.55:740][774]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.08.25-12.04.55:757][774]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.08.25-12.04.55:775][774]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.08.25-12.04.55:793][774]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.08.25-12.04.55:797][774]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.08.25-12.04.55:804][774]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.08.25-12.04.55:805][774]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.08.25-12.04.55:815][774]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.08.25-12.04.55:823][774]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.08.25-12.04.55:826][774]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.08.25-12.04.55:830][774]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.08.25-12.04.55:836][774]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.08.25-12.04.55:836][774]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.08.25-12.04.55:846][774]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.08.25-12.04.55:856][774]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.08.25-12.04.55:856][774]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.08.25-12.04.55:856][774]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.08.25-12.04.55:856][774]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.08.25-12.04.55:864][774]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.08.25-12.04.55:870][774]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.08.25-12.04.55:877][774]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.08.25-12.04.55:887][774]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.08.25-12.04.55:897][774]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.08.25-12.04.55:946][774]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.08.25-12.04.55:954][774]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.08.25-12.04.55:969][774]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.08.25-12.04.55:986][774]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.08.25-12.04.55:986][774]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.08.25-12.04.55:998][774]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.08.25-12.04.55:999][774]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.08.25-12.04.56:015][774]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.08.25-12.04.56:015][774]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.08.25-12.04.56:024][774]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.08.25-12.04.56:024][774]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.08.25-12.04.56:025][774]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.08.25-12.04.56:030][774]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.08.25-12.04.56:041][774]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.08.25-12.04.56:049][774]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.08.25-12.04.56:053][774]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.08.25-12.04.56:060][774]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.08.25-12.04.56:061][774]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.08.25-12.04.56:061][774]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.08.25-12.04.56:219][774]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.08.25-12.04.56:227][774]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.08.25-12.04.56:227][774]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.08.25-12.04.56:227][774]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.08.25-12.04.56:227][774]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.08.25-12.04.56:234][774]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.08.25-12.04.56:234][774]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.08.25-12.04.56:234][774]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.08.25-12.04.56:234][774]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.08.25-12.04.56:234][774]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.08.25-12.04.56:245][774]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.08.25-12.04.56:245][774]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.08.25-12.04.56:261][774]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.08.25-12.04.56:262][774]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.08.25-12.04.56:271][774]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.08.25-12.04.56:271][774]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.08.25-12.04.56:278][774]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.08.25-12.04.56:278][774]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.08.25-12.04.56:278][774]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.08.25-12.04.56:278][774]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.08.25-12.04.56:278][774]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.08.25-12.04.56:293][774]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.08.25-12.04.56:302][774]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.08.25-12.04.56:302][774]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.08.25-12.04.56:309][774]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.08.25-12.04.56:310][774]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.08.25-12.04.56:310][774]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.08.25-12.04.56:314][774]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.08.25-12.04.56:317][774]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.08.25-12.04.56:327][774]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.08.25-12.04.56:337][774]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.08.25-12.04.56:337][774]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.08.25-12.04.56:337][774]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.08.25-12.04.56:337][774]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.08.25-12.04.56:353][774]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.08.25-12.04.56:360][774]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.08.25-12.04.56:366][774]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.08.25-12.04.56:379][774]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.08.25-12.04.56:379][774]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.08.25-12.04.56:413][774]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.08.25-12.04.56:414][774]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.08.25-12.04.56:432][774]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.08.25-12.04.56:432][774]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.08.25-12.04.56:432][774]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.08.25-12.04.56:533][774]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.08.25-12.04.56:636][774]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.08.25-12.04.56:651][774]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.08.25-12.04.56:661][774]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.08.25-12.04.56:661][774]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.08.25-12.04.56:661][774]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.08.25-12.04.56:669][774]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.08.25-12.04.56:702][774]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.08.25-12.04.56:707][774]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.08.25-12.04.56:707][774]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.08.25-12.04.56:707][774]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.08.25-12.04.56:715][774]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.08.25-12.04.56:715][774]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.08.25-12.04.56:715][774]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.08.25-12.04.56:729][774]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.08.25-12.04.56:729][774]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.08.25-12.04.56:737][774]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.08.25-12.04.56:737][774]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.08.25-12.04.56:737][774]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.08.25-12.04.56:738][774]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.08.25-12.04.56:765][774]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.08.25-12.04.56:765][774]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.08.25-12.04.56:765][774]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.08.25-12.04.56:787][774]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.08.25-12.04.56:787][774]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.08.25-12.04.56:808][774]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.08.25-12.04.56:822][774]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.08.25-12.04.56:822][774]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.08.25-12.04.56:822][774]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.08.25-12.04.56:822][774]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.08.25-12.04.56:822][774]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.08.25-12.04.57:052][774]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.25-12.04.57:053][774]LogDirectoryWatcher: A directory notification for '../../../../../TFG/CreativeKeepers/Content/' was aborted.
+[2017.08.25-12.04.57:053][774]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.25-12.04.57:067][774]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.08.25-12.04.57:071][774]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.08.25-12.04.57:071][774]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.08.25-12.04.57:071][774]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.08.25-12.04.57:098][774]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.08.25-12.04.57:101][774]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.08.25-12.04.57:101][774]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.08.25-12.04.57:109][774]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.08.25-12.04.57:116][774]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.08.25-12.04.57:194][774]LogDerivedDataCache: Shutdown
+[2017.08.25-12.04.57:194][774]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.08.25-12.04.57:194][774]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.08.25-12.04.57:199][774]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.08.25-12.04.57:207][774]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.08.25-12.04.57:213][774]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.08.25-12.04.57:218][774]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.08.25-12.04.57:218][774]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.08.25-12.04.57:218][774]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.08.25-12.04.57:218][774]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.08.25-12.04.57:253][774]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.08.25-12.04.57:253][774]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.08.25-12.04.57:253][774]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.08.25-12.04.57:253][774]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.08.25-12.04.57:290][774]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.08.25-12.04.57:291][774]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.08.25-12.04.57:297][774]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.08.25-12.04.57:297][774]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.08.25-12.04.57:297][774]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.08.25-12.04.57:297][774]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.08.25-12.04.57:297][774]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.25-12.04.57:308][774]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.08.25-12.04.57:316][774]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.08.25-12.04.57:321][774]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.25-12.04.57:321][774]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA8440E59-413C-6CCC-C2E9-0AACF8C752D3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=32a836f54a69625fd74255b8f28df338%7C1968c17eba254ed9b4bf8b1be1637d8f%7C3fa134da-b9a2-4079-8632-9954fbbaa8c2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.25-12.04.57:326][774]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.08.25-12.04.57:332][774]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.25-12.04.57:347][774]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.25-12.04.57:347][774]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.25-12.04.57:347][774]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.25-12.04.57:347][774]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.25-12.04.57:378][774]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.25-12.04.57:382][774]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.25-12.04.57:382][774]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.25-12.04.57:388][774]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.25-12.04.57:388][774]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.25-12.04.57:388][774]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.25-12.04.57:389][774]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.25-12.04.57:395][774]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.25-12.04.57:405][774]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.25-12.04.57:405][774]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.25-12.04.57:416][774]LogExit: Exiting.
+[2017.08.25-12.04.57:421][774]Log file closed, 08/25/17 14:04:57

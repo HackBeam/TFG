@@ -1,0 +1,1588 @@
+﻿Log file open, 08/26/17 11:29:55
+LogInit:Display: Running engine for game: CreativeKeepers
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(324822418) SRandInit(324822418).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 1.848051
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Programas/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.26-09.29.56:408][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.26-09.29.56:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.26-09.29.56:462][  0]LogInit: Computer: DESKTOP-QMJBIV2
+[2017.08.26-09.29.56:462][  0]LogInit: User: Grego
+[2017.08.26-09.29.56:462][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.08.26-09.29.56:462][  0]LogInit: High frequency timer resolution =3.609378 MHz
+[2017.08.26-09.29.56:463][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.08.26-09.29.56:463][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.26-09.29.56:463][  0]LogMemory: Process Physical Memory: 262.13 MB used, 262.13 MB peak
+[2017.08.26-09.29.56:463][  0]LogMemory: Process Virtual Memory: 261.82 MB used, 261.82 MB peak
+[2017.08.26-09.29.56:463][  0]LogMemory: Physical Memory: 3384.22 MB used,  4770.86 MB free, 8155.07 MB total
+[2017.08.26-09.29.56:463][  0]LogMemory: Virtual Memory: 642.97 MB used,  4770.86 MB free, 134217728.00 MB total
+[2017.08.26-09.29.56:968][  0]LogInit: Overriding culture en with editor configuration.
+[2017.08.26-09.29.57:923][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.26-09.29.58:420][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.08.26-09.29.58:420][  0]LogD3D11RHI:       6084/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.26-09.29.58:421][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.26-09.29.58:421][  0]LogD3D11RHI:       0/0/4077 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.26-09.29.58:421][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.26-09.29.58:432][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.26-09.29.58:432][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.26-09.29.58:432][  0]LogWindows: EnumDisplayDevices:
+[2017.08.26-09.29.58:432][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.08.26-09.29.58:432][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.26-09.29.58:432][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.26-09.29.58:432][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.26-09.29.58:432][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.26-09.29.58:432][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.08.26-09.29.58:432][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.08.26-09.29.58:432][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.08.26-09.29.58:432][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.26-09.29.58:889][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.26-09.29.59:163][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.26-09.29.59:288][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../TFG/CreativeKeepers/Intermediate/Shaders/WorkingDirectory/9644/).
+[2017.08.26-09.29.59:288][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Grego/AppData/Local/Temp/UnrealShaderWorkingDir/7783021D43918E3C50D6CAB828AB7C69/'.
+[2017.08.26-09.29.59:295][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.26-09.30.01:132][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.26-09.30.01:171][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.26-09.30.01:208][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.26-09.30.01:246][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.26-09.30.01:291][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.26-09.30.01:329][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.26-09.30.01:367][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.26-09.30.01:405][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.26-09.30.01:434][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.26-09.30.01:472][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.26-09.30.01:509][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.26-09.30.01:546][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.26-09.30.01:583][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.26-09.30.01:620][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.26-09.30.01:658][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.26-09.30.01:731][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.26-09.30.01:731][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.26-09.30.01:756][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.26-09.30.01:874][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.26-09.30.01:901][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.26-09.30.01:938][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.26-09.30.01:976][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.26-09.30.02:013][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.26-09.30.02:051][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.26-09.30.02:051][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.26-09.30.02:732][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.26-09.30.03:099][  0]LogDerivedDataCache: Loaded boot cache 0.37s 55MB C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.26-09.30.03:099][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.08.26-09.30.03:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../TFG/CreativeKeepers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.26-09.30.03:099][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.26-09.30.03:099][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../TFG/CreativeKeepers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.26-09.30.03:099][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.26-09.30.03:152][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.26-09.30.03:164][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Grego/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.26-09.30.03:288][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.26-09.30.03:417][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.26-09.30.03:417][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.26-09.30.08:292][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.26-09.30.08:389][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.26-09.30.08:843][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.26-09.30.08:875][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.26-09.30.08:910][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.26-09.30.08:910][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.26-09.30.08:910][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.26-09.30.11:453][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: creativekeepers, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1593119604
+[2017.08.26-09.30.11:539][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2017.08.26-09.30.11:696][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.121412 seconds
+[2017.08.26-09.30.11:717][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.08.26-09.30.11:717][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.08.26-09.30.11:717][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.26-09.30.11:754][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.26-09.30.19:599][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.26-09.30.19:645][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.26-09.30.20:371][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.26-09.30.20:847][  0]SourceControl: Info Source control is disabled
+[2017.08.26-09.30.20:848][  0]SourceControl: Info Source control is disabled
+[2017.08.26-09.30.20:924][  0]SourceControl: Info Source control is disabled
+[2017.08.26-09.30.20:958][  0]SourceControl: Info Source control is disabled
+[2017.08.26-09.30.22:238][  0]LogEngine: Initializing Engine...
+[2017.08.26-09.30.22:239][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.26-09.30.26:252][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.26-09.30.26:323][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-09.30.26:339][  0]LogInit: FAudioDevice initialized.
+[2017.08.26-09.30.26:363][  0]LogDerivedDataCache: Saved boot cache 0.02s 55MB C:/Users/Grego/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.08.26-09.30.26:368][  0]LogInit: Texture streaming: Enabled
+[2017.08.26-09.30.26:467][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.26-09.30.26:572][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.26-09.30.26:821][  0]LogInit: Transaction tracking system initialized
+[2017.08.26-09.30.27:826][  0]BlueprintLog: New page: Editor Load
+[2017.08.26-09.30.30:385][  0]LocalizationService: Info Localization service is disabled
+[2017.08.26-09.30.31:337][  0]LogConsoleResponse:Display: 
+[2017.08.26-09.30.33:216][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/' took 0.01s
+[2017.08.26-09.30.33:216][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.26-09.30.33:216][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.26-09.30.35:817][  0]SourceControl: Info Source control is disabled
+[2017.08.26-09.30.35:951][  0]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.26-09.30.36:025][  0]LightingResults: New page: Lighting Build
+[2017.08.26-09.30.36:287][  0]MapCheck: New page: Map Check
+[2017.08.26-09.30.36:287][  0]LightingResults: New page: Lighting Build
+[2017.08.26-09.30.37:669][  0]LogAIModule: Creating AISystem for world test
+[2017.08.26-09.30.38:108][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.26-09.30.38:226][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.26-09.30.38:253][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.229ms to complete.
+[2017.08.26-09.30.38:253][  0]LogFileHelpers: Loading map 'test' took 2.342
+[2017.08.26-09.30.42:790][  0]LogCollectionManager: Loaded 0 collections in 0.000694 seconds
+[2017.08.26-09.30.43:399][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Saved/Collections/' took 0.01s
+[2017.08.26-09.30.43:399][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/Developers/Grego/Collections/' took 0.01s
+[2017.08.26-09.30.43:399][  0]LogFileCache: Scanning file cache for directory 'D:/TFG/CreativeKeepers/Content/Collections/' took 0.01s
+[2017.08.26-09.30.43:399][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.26-09.30.43:485][  0]LogContentBrowser: Native class hierarchy populated in 0.0333 seconds. Added 2245 classes and 453 folders.
+[2017.08.26-09.30.43:675][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.26-09.30.43:704][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.26-09.30.43:749][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.26-09.30.45:670][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.26-09.30.45:730][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.26-09.30.46:640][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.26-09.30.46:731][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.26-09.30.46:902][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.26-09.30.46:902][  0]LogLoad: (Engine Initialization) Total time: 57.07 seconds
+[2017.08.26-09.30.46:902][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.75 seconds
+[2017.08.26-09.30.46:902][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.26-09.30.46:923][  0]LogOcInput: OculusInput pre-init called
+[2017.08.26-09.30.47:168][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.26-09.30.47:245][  0]LogSlate: Took 0.011728 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.26-09.30.47:263][  0]LogSlate: Took 0.015874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.26-09.30.47:295][  0]LogSlate: Took 0.005099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.26-09.30.47:725][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.08.26-09.30.47:725][  0]LogSlate: Took 0.032764 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-09.30.48:357][  2]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-09.30.49:014][  2]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.08.26-09.30.52:816][  2]LogSlate: Took 0.054091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.26-09.30.54:225][  3]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2017.08.26-09.30.54:225][  3]LogSynthBenchmark:Display: ===============
+[2017.08.26-09.30.54:225][  3]LogSynthBenchmark:Display: Main Processor:
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:          ... 0.020162 s/Run 'RayIntersect'
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:          ... 0.019621 s/Run 'Fractal'
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display: 
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   CPU Perf Index 0: 127.0 (weight 1.00)
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   CPU Perf Index 1: 145.8 (weight 1.50)
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:  
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display: Graphics:
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 1060 6GB'
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   Device Id: 0x1C03
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   Device Revision: 0xA1
+[2017.08.26-09.30.54:424][  3]LogSynthBenchmark:Display:   GPU Memory: 6085/0/4078 MB
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:   GPU first test: 0.01s
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:          ... 1.159 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:          ... 1.108 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:          ... 0.729 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:          ... 2.756 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:          ... 0.227 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:          ... 0.636 s/GigaVert, Confidence=81% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.08.26-09.30.54:596][  3]LogSynthBenchmark:Display:          ... 2.856 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.08.26-09.30.54:766][  3]LogSynthBenchmark:Display:   GPU second test: 0.11s
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 2.205 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 1.698 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 1.536 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 8.825 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 0.263 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 0.333 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 1.503 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 2.205 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 1.698 s/GigaPix, Confidence=100% 'TexHeavy'
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 1.536 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 8.825 s/GigaPix, Confidence=100% 'FillOnly'
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 0.263 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 0.333 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... 1.503 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display: 
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Perf Index 0: 47.9 (weight 1.00)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Perf Index 1: 22.8 (weight 0.10)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Perf Index 2: 39.9 (weight 0.10)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Perf Index 3: 34.7 (weight 3.00)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Perf Index 4: 24.5 (weight 1.00)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Perf Index 5: 21.7 (weight 0.00)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPU Perf Index 6: 85.0 (weight 0.00)
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   CPUIndex: 138.3
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:   GPUIndex: 35.1
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display: 
+[2017.08.26-09.30.54:767][  3]LogSynthBenchmark:Display:          ... Total Time: 0.541701 sec
+[2017.08.26-09.30.55:690][  3]LogSlate: Took 0.074095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.26-09.30.56:204][ 11]LogAssetRegistry: Asset discovery search completed in 44.6864 seconds
+[2017.08.26-09.30.56:204][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000014 seconds (found 0 objects)
+[2017.08.26-09.30.56:204][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.08.26-09.31.45:548][453]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-09.31.45:614][453]Cmd: MAP LOAD FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.26-09.31.45:614][453]LightingResults: New page: Lighting Build
+[2017.08.26-09.31.45:615][453]LoadErrors: New page: Loading map: fase1.umap
+[2017.08.26-09.31.45:616][453]MapCheck: New page: Map Check
+[2017.08.26-09.31.45:616][453]LightingResults: New page: Lighting Build
+[2017.08.26-09.31.45:758][453]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.26-09.31.45:780][453]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.26-09.31.45:811][453]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.739ms to complete.
+[2017.08.26-09.31.45:811][453]LogFileHelpers: Loading map 'fase1' took 0.198
+[2017.08.26-09.32.27:428][505]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:4974).
+[2017.08.26-09.36.45:420][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Switches/sw-fase1-3" FILE="../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset" SILENT=true
+[2017.08.26-09.36.45:452][214]LogSavePackage: Save=31.71ms
+[2017.08.26-09.36.45:452][214]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/sw-fase1-38866228749A953E055BC7FB041C831D2.tmp' to '../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset'
+[2017.08.26-09.36.45:461][214]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset
+[2017.08.26-09.36.46:178][298]BlueprintLog: New page: Compile sw-fase1-3
+[2017.08.26-09.41.04:817][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Switches/sw-fase1-3" FILE="../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset" SILENT=true
+[2017.08.26-09.41.04:878][702]LogSavePackage: Save=13.65ms
+[2017.08.26-09.41.04:878][702]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/sw-fase1-3406A38774A4147797E4F2DBBB6F0EABC.tmp' to '../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset'
+[2017.08.26-09.41.04:882][702]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset
+[2017.08.26-09.41.05:184][732]BlueprintLog: New page: Compile sw-fase1-3
+[2017.08.26-09.41.38:936][742]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite208)
+[2017.08.26-09.41.40:057][860]LogEditorViewport: Clicking on Actor (LMB): sw-fase1-3_C (sw-fase1-3)
+[2017.08.26-09.41.43:984][325]LogEditorViewport: Clicking Background
+[2017.08.26-09.42.21:138][779]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-09.42.33:190][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.26-09.42.33:519][212]LogSavePackage: Save=304.48ms
+[2017.08.26-09.42.33:519][212]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1_Auto1DA46B31B4D5D9D6403834999BB369DEF.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto1.umap'
+[2017.08.26-09.42.33:521][212]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto1.umap
+[2017.08.26-09.42.33:522][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/fase1' took 0.399
+[2017.08.26-09.42.33:522][212]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.399
+[2017.08.26-09.43.06:028][112]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite202)
+[2017.08.26-09.43.14:647][140]LogEditorViewport: Clicking Background
+[2017.08.26-09.43.24:008][263]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite184)
+[2017.08.26-09.43.25:806][473]LogEditorViewport: Clicking Background
+[2017.08.26-09.43.27:800][712]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite185)
+[2017.08.26-09.43.29:692][934]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (suelo_Sprite187)
+[2017.08.26-09.43.31:709][168]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-09.43.33:685][399]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (suelo_Sprite203)
+[2017.08.26-09.43.50:202][375]LogEditorViewport: Clicking Background
+[2017.08.26-09.43.58:232][338]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite202)
+[2017.08.26-09.43.59:478][482]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (suelo_Sprite200)
+[2017.08.26-09.44.00:113][552]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (suelo_Sprite186)
+[2017.08.26-09.44.00:880][636]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (suelo_Sprite184)
+[2017.08.26-09.44.05:953][238]LogEditorViewport: Clicking Background
+[2017.08.26-09.44.17:289][598]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume69)
+[2017.08.26-09.44.38:213][ 79]LogEditorViewport: Clicking Background
+[2017.08.26-09.44.46:779][ 99]Cmd: DELETE
+[2017.08.26-09.44.46:779][ 99]Cmd: ACTOR DELETE
+[2017.08.26-09.44.46:828][ 99]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.26-09.44.46:828][ 99]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.26-09.44.46:829][ 99]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.26-09.44.46:829][ 99]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.26-09.44.46:829][ 99]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.26-09.44.46:857][ 99]LogEditorActor: Deleted 5 Actors (0.031 secs)
+[2017.08.26-09.45.03:996][144]LogEditorViewport: Clicking Background
+[2017.08.26-09.45.06:527][447]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume68)
+[2017.08.26-09.45.16:873][677]LogEditorViewport: Clicking Background
+[2017.08.26-09.45.28:930][122]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite203)
+[2017.08.26-09.45.29:524][187]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite200)
+[2017.08.26-09.45.30:642][316]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite186)
+[2017.08.26-09.45.31:692][436]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite184)
+[2017.08.26-09.45.34:725][794]LogEditorViewport: Clicking Background
+[2017.08.26-09.45.38:794][282]LogEditorViewport: Clicking on Actor (LMB): sw-fase1-3_C (sw-fase1-3)
+[2017.08.26-09.45.45:618][ 93]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite195)
+[2017.08.26-09.45.46:502][193]LogEditorViewport: Clicking on Actor (LMB): sw-fase1-3_C (sw-fase1-3)
+[2017.08.26-09.45.48:027][370]LogEditorViewport: Clicking Background
+[2017.08.26-09.45.53:241][995]LogEditorViewport: Clicking on Actor (LMB): obj_switchWall_C (obj_switchWall3)
+[2017.08.26-09.46.31:310][513]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.26-09.49.20:712][670]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite203)
+[2017.08.26-09.50.08:215][340]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite200)
+[2017.08.26-09.50.24:013][214]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite186)
+[2017.08.26-09.50.49:293][224]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite184)
+[2017.08.26-09.51.05:387][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objects/Switches/sw-fase1-3" FILE="../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset" SILENT=true
+[2017.08.26-09.51.05:434][142]LogSavePackage: Save=24.26ms
+[2017.08.26-09.51.05:434][142]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/sw-fase1-3441A44074CCBB7C1320E1D9D69151496.tmp' to '../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset'
+[2017.08.26-09.51.05:437][142]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Objects/Switches/sw-fase1-3.uasset
+[2017.08.26-09.51.05:793][182]BlueprintLog: New page: Compile sw-fase1-3
+[2017.08.26-09.51.08:421][472]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-09.51.08:445][472]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-09.51.08:445][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-09.51.08:477][472]PIE: New page: PIE session: fase1 (Aug 26, 2017, 1:51:08 PM)
+[2017.08.26-09.51.08:489][472]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-09.51.08:523][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034695s)
+[2017.08.26-09.51.08:524][472]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-09.51.08:524][472]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.08.26-09.51.08:524][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.046322s)
+[2017.08.26-09.51.08:555][472]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-09.51.08:564][472]LogInit: FAudioDevice initialized.
+[2017.08.26-09.51.08:677][472]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-09.51.08:712][472]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-11.51.08
+[2017.08.26-09.51.08:752][472]LogWorld: Bringing up level for play took: 0.044257
+[2017.08.26-09.51.08:824][472]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.08.26-09.51.08:903][472]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 1.121
+[2017.08.26-09.51.08:903][472]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-09.51.09:017][472]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:46832).
+[2017.08.26-09.52.29:233][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-09.52.29:324][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-09.52.32:631][970]LogEditorViewport: Clicking on Actor (LMB): obj_switchWall_C (obj_switchWall3)
+[2017.08.26-09.52.33:692][ 93]Cmd: DELETE
+[2017.08.26-09.52.33:692][ 93]Cmd: ACTOR DELETE
+[2017.08.26-09.52.33:693][ 93]LogEditorActor: Deleted Actor: obj_switchWall_C
+[2017.08.26-09.52.33:721][ 93]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.08.26-09.52.42:544][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.26-09.52.42:893][150]LogSavePackage: Save=296.71ms
+[2017.08.26-09.52.42:893][150]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1379C6F9C4BD27F857B5AE49CF03FF690.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap'
+[2017.08.26-09.52.42:896][150]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap
+[2017.08.26-10.25.06:998][892]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite127)
+[2017.08.26-10.25.08:260][ 37]Cmd: EDIT COPY
+[2017.08.26-10.25.08:463][ 61]Cmd: EDIT PASTE
+[2017.08.26-10.25.14:807][811]Cmd: EDIT PASTE
+[2017.08.26-10.25.21:493][606]Cmd: EDIT PASTE
+[2017.08.26-10.25.37:977][570]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume18)
+[2017.08.26-10.25.44:726][372]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume19)
+[2017.08.26-10.25.49:131][895]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume20)
+[2017.08.26-10.25.53:375][399]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume24)
+[2017.08.26-10.26.03:928][658]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume25)
+[2017.08.26-10.26.14:511][921]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume22)
+[2017.08.26-10.26.22:613][887]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume23)
+[2017.08.26-10.26.28:262][558]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume21)
+[2017.08.26-10.26.34:610][312]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume26)
+[2017.08.26-10.26.52:764][481]LogEditorViewport: Clicking Background
+[2017.08.26-10.27.17:428][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.26-10.27.17:966][619]LogSavePackage: Save=501.95ms
+[2017.08.26-10.27.17:966][619]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1_Auto2B6BBE2AC42EF19F8EFDA9398A80389B5.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto2.umap'
+[2017.08.26-10.27.17:967][619]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto2.umap
+[2017.08.26-10.27.17:968][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/fase1' took 0.596
+[2017.08.26-10.27.17:968][619]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.596
+[2017.08.26-11.24.26:366][463]LogEditor: Attempting to add actor of class 'FloatingText' to level at -4520.00,0.00,2960.00
+[2017.08.26-11.24.27:190][560]LogEditor: Attempting to add actor of class 'FloatingText' to level at -3760.00,0.00,2800.00
+[2017.08.26-11.24.32:971][243]Cmd: DELETE
+[2017.08.26-11.24.32:971][243]Cmd: ACTOR DELETE
+[2017.08.26-11.24.32:973][243]LogEditorActor: Deleted Actor: FloatingText
+[2017.08.26-11.24.33:006][243]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2017.08.26-11.24.34:197][386]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.24.47:649][989]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-11.24.49:023][148]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.24.54:741][829]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-11.24.56:173][995]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.25.27:498][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.26-11.25.27:845][893]LogSavePackage: Save=320.97ms
+[2017.08.26-11.25.27:845][893]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1_Auto3C7EC38904D4D24D5D69C0FBB821A5AC1.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto3.umap'
+[2017.08.26-11.25.27:853][893]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto3.umap
+[2017.08.26-11.25.27:856][893]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/fase1' took 0.387
+[2017.08.26-11.25.27:856][893]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.387
+[2017.08.26-11.25.47:157][329]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\Imagenes\Pablo_picasso.jpg)
+[2017.08.26-11.25.47:205][329]LogTexture:Display: Building textures: Pablo_picasso (BGRA8, 199X247) - 80 MB total VRAM
+[2017.08.26-11.25.47:232][329]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\Imagenes\romanico.jpg)
+[2017.08.26-11.25.47:238][329]LogTexture:Display: Building textures: romanico (BGRA8, 346X241) - 81 MB total VRAM
+[2017.08.26-11.26.22:663][305]LogEditorViewport: Clicking Background
+[2017.08.26-11.26.26:935][817]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.26.26:949][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.26.26:949][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.26.26:949][817]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:26:26 PM)
+[2017.08.26-11.26.26:949][817]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.26.26:978][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028885s)
+[2017.08.26-11.26.26:979][817]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.26.26:979][817]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2017.08.26-11.26.26:979][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.030165s)
+[2017.08.26-11.26.27:047][817]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.26.27:056][817]LogInit: FAudioDevice initialized.
+[2017.08.26-11.26.27:158][817]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.26.27:162][817]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.26.27
+[2017.08.26-11.26.27:163][817]LogWorld: Bringing up level for play took: 0.005169
+[2017.08.26-11.26.27:201][817]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.581
+[2017.08.26-11.26.27:202][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.27.01:533][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.27.01:627][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.27.02:572][ 26]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.27.49:362][612]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.27.49:376][612]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.27.49:377][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.27.49:377][612]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:27:49 PM)
+[2017.08.26-11.27.49:377][612]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.27.49:404][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027506s)
+[2017.08.26-11.27.49:405][612]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.27.49:405][612]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.08.26-11.27.49:405][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028400s)
+[2017.08.26-11.27.49:436][612]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.27.49:445][612]LogInit: FAudioDevice initialized.
+[2017.08.26-11.27.49:473][612]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.27.49:477][612]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.27.49
+[2017.08.26-11.27.49:479][612]LogWorld: Bringing up level for play took: 0.005098
+[2017.08.26-11.27.49:495][612]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.287
+[2017.08.26-11.27.49:495][612]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.28.03:065][238]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.28.03:118][238]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.28.11:136][190]LogEditor: Attempting to add actor of class 'FloatingText' to level at -3970.00,0.00,2970.00
+[2017.08.26-11.28.12:653][370]LogEditor: Attempting to add actor of class 'FloatingText' to level at -3000.00,0.00,2760.00
+[2017.08.26-11.28.36:151][162]Cmd: DELETE
+[2017.08.26-11.28.36:151][162]Cmd: ACTOR DELETE
+[2017.08.26-11.28.36:153][162]LogEditorActor: Deleted Actor: FloatingText
+[2017.08.26-11.28.36:182][162]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.08.26-11.28.39:723][587]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.33.20:034][150]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.33.20:048][150]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.33.20:048][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.33.20:049][150]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:33:20 PM)
+[2017.08.26-11.33.20:049][150]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.33.20:077][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027595s)
+[2017.08.26-11.33.20:077][150]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.33.20:077][150]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.08.26-11.33.20:078][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028578s)
+[2017.08.26-11.33.20:110][150]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.33.20:119][150]LogInit: FAudioDevice initialized.
+[2017.08.26-11.33.20:149][150]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.33.20:153][150]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.33.20
+[2017.08.26-11.33.20:155][150]LogWorld: Bringing up level for play took: 0.005319
+[2017.08.26-11.33.20:161][150]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 0.379
+[2017.08.26-11.33.20:162][150]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.33.39:121][423]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.33.39:173][423]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.33.55:767][369]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.34.20:076][245]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.34.21:106][368]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.34.48:581][646]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.34.48:596][646]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.34.48:596][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.34.48:596][646]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:34:48 PM)
+[2017.08.26-11.34.48:596][646]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.34.48:624][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027434s)
+[2017.08.26-11.34.48:624][646]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.34.48:624][646]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.08.26-11.34.48:625][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028297s)
+[2017.08.26-11.34.48:656][646]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.34.48:665][646]LogInit: FAudioDevice initialized.
+[2017.08.26-11.34.48:694][646]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.34.48:698][646]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.34.48
+[2017.08.26-11.34.48:699][646]LogWorld: Bringing up level for play took: 0.004941
+[2017.08.26-11.34.48:706][646]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 0.924
+[2017.08.26-11.34.48:707][646]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.35.14:722][765]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.35.14:772][765]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.35.15:870][889]LogEditorViewport: Clicking Background
+[2017.08.26-11.35.23:146][762]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.35.58:467][972]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.35.58:481][972]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.35.58:481][972]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.35.58:481][972]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:35:58 PM)
+[2017.08.26-11.35.58:482][972]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.35.58:509][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026804s)
+[2017.08.26-11.35.58:509][972]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.35.58:509][972]LogPlayLevel: PIE: World Init took: (0.000508s)
+[2017.08.26-11.35.58:509][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.027721s)
+[2017.08.26-11.35.58:540][972]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.35.58:549][972]LogInit: FAudioDevice initialized.
+[2017.08.26-11.35.58:580][972]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.35.58:584][972]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.35.58
+[2017.08.26-11.35.58:585][972]LogWorld: Bringing up level for play took: 0.004977
+[2017.08.26-11.35.58:598][972]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 0.816
+[2017.08.26-11.35.58:599][972]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.36.00:225][165]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.36.00:273][165]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.37.33:450][783]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.37.33:465][783]LogTemp:Display: Added material ShaderMap 0x0000022B26FF4B80 with Material 0x0000022B77DCEC80 to ShaderMapsBeingCompiled
+[2017.08.26-11.37.33:538][783]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B26FF4B80
+[2017.08.26-11.37.45:934][676]LogTemp:Display: Finished compile of shader map 0x0000022B26FF4B80
+[2017.08.26-11.37.45:934][676]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B26FF4B80, marking material texto as finished
+[2017.08.26-11.37.45:934][676]LogTemp:Display: Marking material as finished 0x0000022B77DCEC80
+[2017.08.26-11.37.46:632][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/texto" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset" SILENT=true
+[2017.08.26-11.37.46:669][748]LogSavePackage: Save=35.41ms
+[2017.08.26-11.37.46:669][748]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/texto083ED3AE4E9F8FC1C6E841895253CCAC.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset'
+[2017.08.26-11.37.46:671][748]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset
+[2017.08.26-11.37.48:817][934]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.37.48:817][934]LogTemp:Display: Added material ShaderMap 0x0000022B830F5600 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.37.48:832][934]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B830F5600
+[2017.08.26-11.37.49:034][934]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.37.49:034][934]LogTemp:Display: Added material ShaderMap 0x0000022B09E5C480 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.37.49:053][934]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B09E5C480
+[2017.08.26-11.37.49:053][934]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.37.49:087][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFontSampleParameter_0, compiling. 
+[2017.08.26-11.37.49:088][934]LogTemp:Display: Added material ShaderMap 0x0000022B50D84100 with Material 0x0000022B11178400 to ShaderMapsBeingCompiled
+[2017.08.26-11.37.49:091][934]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionFontSampleParameter_0, GameThreadShaderMap 0x0000022B50D84100
+[2017.08.26-11.37.49:093][934]LogTemp:Display: Finished compile of shader map 0x0000022B830F5600
+[2017.08.26-11.37.49:093][934]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B830F5600, marking material texto as finished
+[2017.08.26-11.37.49:093][934]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.37.53:503][401]LogTemp:Display: Finished compile of shader map 0x0000022B09E5C480
+[2017.08.26-11.37.53:503][401]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B09E5C480, marking material texto as finished
+[2017.08.26-11.37.53:503][401]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.37.53:539][402]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 88 instructions
+[2017.08.26-11.37.53:539][402]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.37.53:539][402]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.26-11.37.53:547][402]LogTemp:Display: Finished compile of shader map 0x0000022B50D84100
+[2017.08.26-11.37.53:547][402]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionFontSampleParameter_0 complete, GameThreadShaderMap 0x0000022B50D84100, marking material FMatExpressionPreview MaterialExpressionFontSampleParameter_0 as finished
+[2017.08.26-11.37.53:547][402]LogTemp:Display: Marking material as finished 0x0000022B11178400
+[2017.08.26-11.38.09:872][357]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.38.09:873][357]LogTemp:Display: Added material ShaderMap 0x0000022BABD4AB00 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.38.09:887][357]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BABD4AB00
+[2017.08.26-11.38.09:888][357]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.38.12:902][702]LogTemp:Display: Finished compile of shader map 0x0000022BABD4AB00
+[2017.08.26-11.38.12:902][702]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BABD4AB00, marking material texto as finished
+[2017.08.26-11.38.12:902][702]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.38.12:908][703]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.08.26-11.38.12:908][703]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.38.12:908][703]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.26-11.38.29:013][606]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.38.29:027][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.38.29:027][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.38.29:027][606]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:38:29 PM)
+[2017.08.26-11.38.29:027][606]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.38.29:054][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027413s)
+[2017.08.26-11.38.29:055][606]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.38.29:055][606]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2017.08.26-11.38.29:055][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028307s)
+[2017.08.26-11.38.29:087][606]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.38.29:096][606]LogInit: FAudioDevice initialized.
+[2017.08.26-11.38.29:126][606]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.38.29:129][606]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.38.29
+[2017.08.26-11.38.29:131][606]LogWorld: Bringing up level for play took: 0.005202
+[2017.08.26-11.38.29:138][606]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.645
+[2017.08.26-11.38.29:138][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.38.34:070][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.38.34:122][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.01:393][ 75]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.39.01:393][ 75]LogTemp:Display: Added material ShaderMap 0x0000022B8AD90B80 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.39.01:408][ 75]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8AD90B80
+[2017.08.26-11.39.01:408][ 75]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.39.04:874][475]LogTemp:Display: Finished compile of shader map 0x0000022B8AD90B80
+[2017.08.26-11.39.04:874][475]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8AD90B80, marking material texto as finished
+[2017.08.26-11.39.04:874][475]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.39.04:880][476]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 89 instructions
+[2017.08.26-11.39.04:880][476]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.39.04:880][476]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.26-11.39.08:912][956]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.39.08:926][956]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.08:926][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.39.08:926][956]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:39:08 PM)
+[2017.08.26-11.39.08:927][956]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.39.08:954][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027157s)
+[2017.08.26-11.39.08:954][956]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.39.08:954][956]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2017.08.26-11.39.08:955][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.027971s)
+[2017.08.26-11.39.08:987][956]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.39.08:995][956]LogInit: FAudioDevice initialized.
+[2017.08.26-11.39.09:027][956]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.39.09:031][956]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.39.09
+[2017.08.26-11.39.09:032][956]LogWorld: Bringing up level for play took: 0.005287
+[2017.08.26-11.39.09:039][956]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.743
+[2017.08.26-11.39.09:039][956]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.09:985][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.10:034][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.17:020][898]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.39.17:035][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.17:035][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.39.17:035][898]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:39:17 PM)
+[2017.08.26-11.39.17:035][898]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.39.17:062][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026668s)
+[2017.08.26-11.39.17:062][898]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.39.17:063][898]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2017.08.26-11.39.17:063][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.027490s)
+[2017.08.26-11.39.17:094][898]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.39.17:103][898]LogInit: FAudioDevice initialized.
+[2017.08.26-11.39.17:136][898]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.39.17:139][898]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.39.17
+[2017.08.26-11.39.17:141][898]LogWorld: Bringing up level for play took: 0.005082
+[2017.08.26-11.39.17:147][898]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.635
+[2017.08.26-11.39.17:148][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.21:377][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.39.21:429][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.11:892][420]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.40.11:892][420]LogTemp:Display: Added material ShaderMap 0x0000022BAB57C800 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.40.11:897][420]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BAB57C800
+[2017.08.26-11.40.11:907][420]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.40.11:908][420]LogTemp:Display: Added material ShaderMap 0x0000022B8CFCCF00 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.40.11:914][420]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8CFCCF00
+[2017.08.26-11.40.11:914][420]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.40.12:379][466]LogTemp:Display: Finished compile of shader map 0x0000022BAB57C800
+[2017.08.26-11.40.12:379][466]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BAB57C800, marking material texto as finished
+[2017.08.26-11.40.12:380][466]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.40.13:261][569]LogTemp:Display: Finished compile of shader map 0x0000022B8CFCCF00
+[2017.08.26-11.40.13:261][569]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8CFCCF00, marking material texto as finished
+[2017.08.26-11.40.13:261][569]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.40.13:268][570]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.40.13:268][570]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.40.13:268][570]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-11.40.15:970][880]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.40.15:985][880]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.15:985][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.40.15:985][880]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:40:15 PM)
+[2017.08.26-11.40.15:985][880]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.40.16:013][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028033s)
+[2017.08.26-11.40.16:013][880]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.40.16:014][880]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.08.26-11.40.16:014][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.029018s)
+[2017.08.26-11.40.16:045][880]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.40.16:054][880]LogInit: FAudioDevice initialized.
+[2017.08.26-11.40.16:097][880]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.40.16:102][880]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.40.16
+[2017.08.26-11.40.16:104][880]LogWorld: Bringing up level for play took: 0.006267
+[2017.08.26-11.40.16:114][880]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 0.332
+[2017.08.26-11.40.16:115][880]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.17:610][ 25]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.17:682][ 25]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.47:630][121]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.40.47:644][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.47:645][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.40.47:645][121]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:40:47 PM)
+[2017.08.26-11.40.47:645][121]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.40.47:672][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026534s)
+[2017.08.26-11.40.47:672][121]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.40.47:672][121]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2017.08.26-11.40.47:673][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.027532s)
+[2017.08.26-11.40.47:703][121]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.40.47:712][121]LogInit: FAudioDevice initialized.
+[2017.08.26-11.40.47:743][121]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.40.47:747][121]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.40.47
+[2017.08.26-11.40.47:748][121]LogWorld: Bringing up level for play took: 0.004858
+[2017.08.26-11.40.47:755][121]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.027
+[2017.08.26-11.40.47:755][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.57:711][314]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.40.57:767][314]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.41.00:405][623]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.41.30:139][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.26-11.41.30:551][318]LogSavePackage: Save=384.46ms
+[2017.08.26-11.41.30:551][318]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1_Auto4674FEE0D4AE45B936C9D3B9C5F81CA3B.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto4.umap'
+[2017.08.26-11.41.30:556][318]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto4.umap
+[2017.08.26-11.41.30:558][318]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/fase1' took 0.457
+[2017.08.26-11.41.30:558][318]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.457
+[2017.08.26-11.41.30:589][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/ForBackgrounds/Pablo_picasso] ([1] browsable assets)...
+[2017.08.26-11.41.30:595][318]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/ForBackgrounds/Pablo_picasso.Pablo_picasso]
+[2017.08.26-11.41.30:595][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/ForBackgrounds/Pablo_picasso]
+[2017.08.26-11.41.30:602][318]LogSavePackage: Save=6.18ms
+[2017.08.26-11.41.30:602][318]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/Pablo_picasso_Auto4384152B647A5FC2CAB7870A82E742522.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Textures/ForBackgrounds/Pablo_picasso_Auto4.uasset'
+[2017.08.26-11.41.30:611][318]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Textures/ForBackgrounds/Pablo_picasso_Auto4.uasset
+[2017.08.26-11.41.30:612][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/ForBackgrounds/romanico] ([1] browsable assets)...
+[2017.08.26-11.41.30:619][318]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/ForBackgrounds/romanico.romanico]
+[2017.08.26-11.41.30:619][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/ForBackgrounds/romanico]
+[2017.08.26-11.41.30:630][318]LogSavePackage: Save=9.77ms
+[2017.08.26-11.41.30:630][318]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/romanico_Auto4646181FA4E85250E7E7A32AA8DBFFE91.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Textures/ForBackgrounds/romanico_Auto4.uasset'
+[2017.08.26-11.41.30:631][318]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Textures/ForBackgrounds/romanico_Auto4.uasset
+[2017.08.26-11.41.30:632][318]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/ForBackgrounds/romanico_Sprite] ([1] browsable assets)...
+[2017.08.26-11.41.30:643][318]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Textures/ForBackgrounds/romanico_Sprite.romanico_Sprite]
+[2017.08.26-11.41.30:643][318]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/ForBackgrounds/romanico_Sprite]
+[2017.08.26-11.41.30:655][318]LogSavePackage: Save=11.27ms
+[2017.08.26-11.41.30:656][318]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/romanico_Sprite_Auto4A9D4F38E4CEA8EA9F221068FC3346ED6.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Textures/ForBackgrounds/romanico_Sprite_Auto4.uasset'
+[2017.08.26-11.41.30:660][318]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Textures/ForBackgrounds/romanico_Sprite_Auto4.uasset
+[2017.08.26-11.41.30:662][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineMaterials/texto" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Engine/EngineMaterials/texto_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.26-11.41.30:668][318]LogSavePackage: Save=4.16ms
+[2017.08.26-11.41.30:668][318]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/texto_Auto47D3DAA484A4A6B4A311A6C8A490F64D7.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Engine/EngineMaterials/texto_Auto4.uasset'
+[2017.08.26-11.41.30:669][318]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Engine/EngineMaterials/texto_Auto4.uasset
+[2017.08.26-11.41.30:669][318]LogFileHelpers: Auto-saving content packages took 0.110
+[2017.08.26-11.43.08:483][ 82]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.43.08:497][ 82]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.08:498][ 82]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.43.08:498][ 82]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:43:08 PM)
+[2017.08.26-11.43.08:498][ 82]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.43.08:525][ 82]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026815s)
+[2017.08.26-11.43.08:525][ 82]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.43.08:525][ 82]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.08.26-11.43.08:526][ 82]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.027656s)
+[2017.08.26-11.43.08:556][ 82]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.43.08:566][ 82]LogInit: FAudioDevice initialized.
+[2017.08.26-11.43.08:598][ 82]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.43.08:602][ 82]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.43.08
+[2017.08.26-11.43.08:604][ 82]LogWorld: Bringing up level for play took: 0.005071
+[2017.08.26-11.43.08:610][ 82]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 0.828
+[2017.08.26-11.43.08:610][ 82]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.11:518][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.11:567][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.17:321][107]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.17:321][107]LogTemp:Display: Added material ShaderMap 0x0000022BADB21280 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.17:326][107]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BADB21280
+[2017.08.26-11.43.17:328][107]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.17:329][107]LogTemp:Display: Added material ShaderMap 0x0000022BABD7DD00 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.17:334][107]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BABD7DD00
+[2017.08.26-11.43.17:334][107]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.18:420][231]LogTemp:Display: Finished compile of shader map 0x0000022BABD7DD00
+[2017.08.26-11.43.18:420][231]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BABD7DD00, marking material texto as finished
+[2017.08.26-11.43.18:420][231]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.43.18:427][232]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.43.18:427][232]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.43.18:427][232]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-11.43.31:951][853]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.31:952][853]LogTemp:Display: Added material ShaderMap 0x0000022BABD7E780 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.31:953][853]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BABD7E780
+[2017.08.26-11.43.31:956][853]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.31:956][853]LogTemp:Display: Added material ShaderMap 0x0000022B8D8E0800 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.31:958][853]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8D8E0800
+[2017.08.26-11.43.31:958][853]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.32:197][878]LogTemp:Display: Finished compile of shader map 0x0000022B8D8E0800
+[2017.08.26-11.43.32:197][878]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8D8E0800, marking material texto as finished
+[2017.08.26-11.43.32:197][878]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.43.32:204][879]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.08.26-11.43.32:204][879]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.08.26-11.43.32:204][879]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.08.26-11.43.36:921][442]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.43.36:934][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.36:934][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.43.36:935][442]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:43:36 PM)
+[2017.08.26-11.43.36:935][442]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.43.36:962][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027323s)
+[2017.08.26-11.43.36:963][442]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.43.36:963][442]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2017.08.26-11.43.36:963][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028120s)
+[2017.08.26-11.43.36:993][442]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.43.37:002][442]LogInit: FAudioDevice initialized.
+[2017.08.26-11.43.37:032][442]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.43.37:036][442]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.43.37
+[2017.08.26-11.43.37:038][442]LogWorld: Bringing up level for play took: 0.004933
+[2017.08.26-11.43.37:044][442]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.738
+[2017.08.26-11.43.37:045][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.38:723][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.38:773][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.41:512][963]LogMaterialEditor: Saving and Compiling material texto
+[2017.08.26-11.43.41:990][963]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.41:991][963]LogTemp:Display: Added material ShaderMap 0x0000022BB26FA780 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.41:994][963]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BB26FA780
+[2017.08.26-11.43.41:994][963]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.42:024][963]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.42:025][963]LogTemp:Display: Added material ShaderMap 0x0000022B2D3C4480 with Material 0x0000022B77DCF280 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.42:032][963]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B2D3C4480
+[2017.08.26-11.43.42:033][963]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.42:034][963]LogTemp:Display: Added material ShaderMap 0x0000022B8D21BC80 with Material 0x0000022B77DCF280 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.42:039][963]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8D21BC80
+[2017.08.26-11.43.42:050][963]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.42:104][963]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy texto, compiling. 
+[2017.08.26-11.43.42:105][963]LogTemp:Display: Added material ShaderMap 0x0000022B89716E80 with Material 0x0000022BB26AC100 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.42:269][963]LogTemp:Display: Finished compile of shader map 0x0000022B89716E80
+[2017.08.26-11.43.42:269][963]LogTemp:Display: Shader map FDebugViewModeMaterialProxy texto complete, GameThreadShaderMap 0x0000022B89716E80, marking material FDebugViewModeMaterialProxy texto as finished
+[2017.08.26-11.43.42:269][963]LogTemp:Display: Marking material as finished 0x0000022BB26AC100
+[2017.08.26-11.43.42:272][963]TextureStreamingBuild:Display: Compiling optional shaders took 0.173 seconds.
+[2017.08.26-11.43.42:736][963]LogTemp:Display: Finished compile of shader map 0x0000022B8D21BC80
+[2017.08.26-11.43.42:736][963]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8D21BC80, marking material texto as finished
+[2017.08.26-11.43.42:736][963]LogTemp:Display: Marking material as finished 0x0000022B77DCF280
+[2017.08.26-11.43.42:738][963]LogTemp:Display: Finished compile of shader map 0x0000022B2D3C4480
+[2017.08.26-11.43.42:738][963]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B2D3C4480, marking material texto as finished
+[2017.08.26-11.43.42:738][963]LogTemp:Display: Marking material as finished 0x0000022B77DCF280
+[2017.08.26-11.43.42:740][963]LogTemp:Display: Finished compile of shader map 0x0000022BB26FA780
+[2017.08.26-11.43.42:740][963]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BB26FA780, marking material texto as finished
+[2017.08.26-11.43.42:740][963]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.43.42:759][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/texto" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset" SILENT=true
+[2017.08.26-11.43.42:789][963]LogSavePackage: Save=8.34ms
+[2017.08.26-11.43.42:789][963]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/textoD6A5E9A145464AD3AE34F3912623A46D.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset'
+[2017.08.26-11.43.42:791][963]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset
+[2017.08.26-11.43.45:434][279]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.43.45:447][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.45:447][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.43.45:447][279]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:43:45 PM)
+[2017.08.26-11.43.45:448][279]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.43.45:475][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027259s)
+[2017.08.26-11.43.45:475][279]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.43.45:475][279]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2017.08.26-11.43.45:476][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028164s)
+[2017.08.26-11.43.45:507][279]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.43.45:516][279]LogInit: FAudioDevice initialized.
+[2017.08.26-11.43.45:547][279]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.43.45:551][279]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.43.45
+[2017.08.26-11.43.45:553][279]LogWorld: Bringing up level for play took: 0.005460
+[2017.08.26-11.43.45:559][279]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.223
+[2017.08.26-11.43.45:560][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.47:130][466]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.47:180][466]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.52:161][ 54]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.52:162][ 54]LogTemp:Display: Added material ShaderMap 0x0000022BAAE22B00 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.52:169][ 54]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BAAE22B00
+[2017.08.26-11.43.52:171][ 54]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.52:172][ 54]LogTemp:Display: Added material ShaderMap 0x0000022BADCD4B80 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.52:179][ 54]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BADCD4B80
+[2017.08.26-11.43.52:179][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.52:433][ 79]LogTemp:Display: Finished compile of shader map 0x0000022BAAE22B00
+[2017.08.26-11.43.52:433][ 79]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BAAE22B00, marking material texto as finished
+[2017.08.26-11.43.52:433][ 79]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.43.53:273][177]LogTemp:Display: Finished compile of shader map 0x0000022BADCD4B80
+[2017.08.26-11.43.53:273][177]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BADCD4B80, marking material texto as finished
+[2017.08.26-11.43.53:273][177]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.43.53:281][178]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.43.53:281][178]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.43.53:281][178]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-11.43.54:658][343]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.54:659][343]LogTemp:Display: Added material ShaderMap 0x0000022BAB8B0100 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.54:664][343]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BAB8B0100
+[2017.08.26-11.43.54:667][343]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.54:667][343]LogTemp:Display: Added material ShaderMap 0x0000022B8ABD6E80 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.54:672][343]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8ABD6E80
+[2017.08.26-11.43.54:672][343]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.55:605][445]LogTemp:Display: Finished compile of shader map 0x0000022B8ABD6E80
+[2017.08.26-11.43.55:605][445]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8ABD6E80, marking material texto as finished
+[2017.08.26-11.43.55:605][445]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.43.55:612][446]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.43.55:612][446]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.43.55:612][446]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-11.43.56:062][500]LogMaterialEditor: Saving and Compiling material texto
+[2017.08.26-11.43.56:482][500]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.56:483][500]LogTemp:Display: Added material ShaderMap 0x0000022B8AFA5280 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.56:491][500]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8AFA5280
+[2017.08.26-11.43.56:491][500]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.56:519][500]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.56:520][500]LogTemp:Display: Added material ShaderMap 0x0000022BB2617200 with Material 0x0000022B77DCEC80 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.56:539][500]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BB2617200
+[2017.08.26-11.43.56:541][500]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.43.56:542][500]LogTemp:Display: Added material ShaderMap 0x0000022B2C72F580 with Material 0x0000022B77DCEC80 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.56:556][500]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B2C72F580
+[2017.08.26-11.43.56:559][500]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.43.56:609][500]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy texto, compiling. 
+[2017.08.26-11.43.56:610][500]LogTemp:Display: Added material ShaderMap 0x0000022BADC9A780 with Material 0x0000022B50D41C00 to ShaderMapsBeingCompiled
+[2017.08.26-11.43.57:015][500]LogTemp:Display: Finished compile of shader map 0x0000022BADC9A780
+[2017.08.26-11.43.57:015][500]LogTemp:Display: Shader map FDebugViewModeMaterialProxy texto complete, GameThreadShaderMap 0x0000022BADC9A780, marking material FDebugViewModeMaterialProxy texto as finished
+[2017.08.26-11.43.57:015][500]LogTemp:Display: Marking material as finished 0x0000022B50D41C00
+[2017.08.26-11.43.57:018][500]TextureStreamingBuild:Display: Compiling optional shaders took 0.413 seconds.
+[2017.08.26-11.43.57:990][500]LogTemp:Display: Finished compile of shader map 0x0000022B2C72F580
+[2017.08.26-11.43.57:990][500]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B2C72F580, marking material texto as finished
+[2017.08.26-11.43.57:990][500]LogTemp:Display: Marking material as finished 0x0000022B77DCEC80
+[2017.08.26-11.43.58:008][500]LogSlate: Took 0.005736 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.26-11.43.58:019][500]LogTemp:Display: Finished compile of shader map 0x0000022B8AFA5280
+[2017.08.26-11.43.58:019][500]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8AFA5280, marking material texto as finished
+[2017.08.26-11.43.58:019][500]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.43.58:037][500]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/texto" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset" SILENT=true
+[2017.08.26-11.43.58:072][500]LogSavePackage: Save=9.94ms
+[2017.08.26-11.43.58:072][500]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/texto9B682D234D2B5CFC0B82D4A3F514BED3.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset'
+[2017.08.26-11.43.58:074][500]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset
+[2017.08.26-11.43.58:079][500]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.43.58:079][500]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.08.26-11.43.58:079][500]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.08.26-11.43.59:344][651]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.43.59:358][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.43.59:358][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.43.59:358][651]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:43:59 PM)
+[2017.08.26-11.43.59:358][651]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.43.59:385][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027223s)
+[2017.08.26-11.43.59:386][651]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.43.59:386][651]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2017.08.26-11.43.59:386][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028289s)
+[2017.08.26-11.43.59:417][651]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.43.59:426][651]LogInit: FAudioDevice initialized.
+[2017.08.26-11.43.59:457][651]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.43.59:460][651]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.43.59
+[2017.08.26-11.43.59:462][651]LogWorld: Bringing up level for play took: 0.004936
+[2017.08.26-11.43.59:469][651]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.313
+[2017.08.26-11.43.59:469][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.44.17:336][793]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.44.17:385][793]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.44.23:820][557]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite65)
+[2017.08.26-11.44.24:764][663]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.44.31:808][491]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-11.44.34:499][807]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (romanico_Sprite)
+[2017.08.26-11.44.39:931][445]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.44.48:541][470]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (romanico_Sprite)
+[2017.08.26-11.44.52:811][973]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-11.44.53:501][ 50]LogEditorViewport: Clicking Background
+[2017.08.26-11.44.55:868][334]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.45.03:372][220]LogEditorViewport: Clicking Background
+[2017.08.26-11.45.04:700][379]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-11.45.05:313][446]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-11.45.06:635][604]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.45.06:649][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.45.06:649][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.45.06:649][604]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:45:06 PM)
+[2017.08.26-11.45.06:650][604]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.45.06:677][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026921s)
+[2017.08.26-11.45.06:677][604]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.45.06:677][604]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2017.08.26-11.45.06:677][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.027741s)
+[2017.08.26-11.45.06:709][604]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.45.06:718][604]LogInit: FAudioDevice initialized.
+[2017.08.26-11.45.06:747][604]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.45.06:751][604]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.45.06
+[2017.08.26-11.45.06:752][604]LogWorld: Bringing up level for play took: 0.004947
+[2017.08.26-11.45.06:759][604]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 0.977
+[2017.08.26-11.45.06:759][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.45.42:912][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.45.42:970][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.45.44:946][170]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.52.32:025][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.26-11.52.32:363][ 92]LogSavePackage: Save=313.16ms
+[2017.08.26-11.52.32:363][ 92]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1_Auto5DDDF4C51416FF4C2A31B87A33C97FA76.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto5.umap'
+[2017.08.26-11.52.32:364][ 92]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto5.umap
+[2017.08.26-11.52.32:365][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/fase1' took 0.373
+[2017.08.26-11.52.32:366][ 92]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.373
+[2017.08.26-11.54.27:084][262]LogEditorViewport: Clicking Background
+[2017.08.26-11.54.30:386][658]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-11.54.31:438][778]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.54.40:575][859]LogEditorViewport: Clicking Background
+[2017.08.26-11.54.42:533][ 94]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.54.45:703][470]LogEditorViewport: Clicking Background
+[2017.08.26-11.54.51:846][207]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.55.13:310][750]LogEditorViewport: Clicking Background
+[2017.08.26-11.55.14:453][887]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.55.17:199][212]LogEditorViewport: Clicking Background
+[2017.08.26-11.55.23:026][911]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.55.34:855][326]Cmd: EDIT COPY
+[2017.08.26-11.55.35:053][349]Cmd: EDIT PASTE
+[2017.08.26-11.55.46:757][742]LogEditorViewport: Clicking Background
+[2017.08.26-11.55.48:649][969]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.55.53:482][536]LogEditorViewport: Clicking Background
+[2017.08.26-11.55.55:608][791]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.56.00:080][320]LogEditorViewport: Clicking Background
+[2017.08.26-11.56.03:434][722]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.56.20:666][780]LogEditorViewport: Clicking Background
+[2017.08.26-11.56.23:467][116]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.56.27:498][595]LogEditorViewport: Clicking Background
+[2017.08.26-11.56.28:957][770]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.56.30:978][  8]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.56.33:623][321]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.56.38:257][872]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.56.40:363][120]LogEditorViewport: Clicking Background
+[2017.08.26-11.56.43:922][547]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.56.48:176][ 53]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.56.57:713][192]LogEditorViewport: Clicking Background
+[2017.08.26-11.57.00:331][506]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.57.13:679][ 93]LogEditorViewport: Clicking Background
+[2017.08.26-11.57.17:014][491]Cmd: TRANSACTION UNDO
+[2017.08.26-11.57.17:014][491]LogEditorTransaction: Undo Clicking Background
+[2017.08.26-11.57.17:060][491]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.57.17:061][491]LogTemp:Display: Added material ShaderMap 0x0000022BB2302E80 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.57.17:066][491]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BB2302E80
+[2017.08.26-11.57.17:066][491]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.57.18:305][611]LogTemp:Display: Finished compile of shader map 0x0000022BB2302E80
+[2017.08.26-11.57.18:305][611]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BB2302E80, marking material texto as finished
+[2017.08.26-11.57.18:305][611]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.57.18:313][612]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.57.18:313][612]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.57.18:313][612]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-11.57.18:863][678]Cmd: TRANSACTION UNDO
+[2017.08.26-11.57.18:863][678]LogEditorTransaction: Undo Set actor location
+[2017.08.26-11.57.18:882][678]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.57.18:883][678]LogTemp:Display: Added material ShaderMap 0x0000022B8D8E0800 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.57.18:887][678]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8D8E0800
+[2017.08.26-11.57.18:887][678]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.57.19:906][788]LogTemp:Display: Finished compile of shader map 0x0000022B8D8E0800
+[2017.08.26-11.57.19:906][788]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8D8E0800, marking material texto as finished
+[2017.08.26-11.57.19:906][788]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.57.19:914][789]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.57.19:914][789]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.57.19:914][789]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-11.58.02:775][921]LogEditorViewport: Clicking Background
+[2017.08.26-11.58.09:010][669]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-11.58.09:024][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.58.09:024][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-11.58.09:024][669]PIE: New page: PIE session: fase1 (Aug 26, 2017, 3:58:09 PM)
+[2017.08.26-11.58.09:024][669]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-11.58.09:053][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028402s)
+[2017.08.26-11.58.09:053][669]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-11.58.09:054][669]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.08.26-11.58.09:054][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.029329s)
+[2017.08.26-11.58.09:086][669]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-11.58.09:095][669]LogInit: FAudioDevice initialized.
+[2017.08.26-11.58.09:123][669]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-11.58.09:127][669]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-13.58.09
+[2017.08.26-11.58.09:129][669]LogWorld: Bringing up level for play took: 0.005139
+[2017.08.26-11.58.09:136][669]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.646
+[2017.08.26-11.58.09:136][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.58.29:271][ 83]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.58.29:312][ 83]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-11.58.34:616][714]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-11.58.36:500][936]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-11.58.40:718][438]Cmd: EDIT COPY
+[2017.08.26-11.58.41:015][473]Cmd: EDIT PASTE
+[2017.08.26-11.59.11:356][105]LogEditorViewport: Clicking Background
+[2017.08.26-11.59.12:781][276]Cmd: TRANSACTION UNDO
+[2017.08.26-11.59.12:781][276]LogEditorTransaction: Undo Clicking Background
+[2017.08.26-11.59.12:795][276]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.59.12:796][276]LogTemp:Display: Added material ShaderMap 0x0000022BAD95B200 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.59.12:801][276]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BAD95B200
+[2017.08.26-11.59.12:801][276]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.59.13:475][334]Cmd: TRANSACTION UNDO
+[2017.08.26-11.59.13:475][334]LogEditorTransaction: Undo Edit Text
+[2017.08.26-11.59.13:478][334]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.59.13:479][334]LogTemp:Display: Added material ShaderMap 0x0000022BAB57EE80 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.59.13:487][334]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BAB57EE80
+[2017.08.26-11.59.13:488][334]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.59.14:087][398]LogTemp:Display: Finished compile of shader map 0x0000022BAD95B200
+[2017.08.26-11.59.14:087][398]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BAD95B200, marking material texto as finished
+[2017.08.26-11.59.14:087][398]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.59.14:322][425]Cmd: TRANSACTION UNDO
+[2017.08.26-11.59.14:322][425]LogEditorTransaction: Undo Edit Text
+[2017.08.26-11.59.14:325][425]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-11.59.14:326][425]LogTemp:Display: Added material ShaderMap 0x0000022B2FDB3200 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-11.59.14:334][425]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B2FDB3200
+[2017.08.26-11.59.14:334][425]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-11.59.14:908][488]LogTemp:Display: Finished compile of shader map 0x0000022BAB57EE80
+[2017.08.26-11.59.14:908][488]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BAB57EE80, marking material texto as finished
+[2017.08.26-11.59.14:909][488]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.59.15:629][568]LogTemp:Display: Finished compile of shader map 0x0000022B2FDB3200
+[2017.08.26-11.59.15:630][568]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B2FDB3200, marking material texto as finished
+[2017.08.26-11.59.15:630][568]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-11.59.15:637][569]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-11.59.15:637][569]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-11.59.15:637][569]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-11.59.18:677][933]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor3)
+[2017.08.26-11.59.37:799][311]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor4)
+[2017.08.26-11.59.47:797][503]LogEditorViewport: Clicking Background
+[2017.08.26-12.00.01:054][ 93]Cmd: EDIT PASTE
+[2017.08.26-12.00.08:184][943]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor5)
+[2017.08.26-12.00.21:797][570]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor6)
+[2017.08.26-12.00.29:339][468]LogEditorViewport: Clicking Background
+[2017.08.26-12.00.31:406][716]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor5)
+[2017.08.26-12.00.32:381][829]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor6)
+[2017.08.26-12.00.54:387][444]LogEditorViewport: Clicking Background
+[2017.08.26-12.02.53:296][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.08.26-12.02.53:633][740]LogSavePackage: Save=311.00ms
+[2017.08.26-12.02.53:633][740]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1_Auto64E5AD17148A8A2D0B7984CB999EC6960.tmp' to '../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto6.umap'
+[2017.08.26-12.02.53:644][740]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Saved/Autosaves/Game/Levels/fase1_Auto6.umap
+[2017.08.26-12.02.53:646][740]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/fase1' took 0.380
+[2017.08.26-12.02.53:646][740]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.380
+[2017.08.26-12.03.13:320][221]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-12.03.14:303][335]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-12.03.15:803][511]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (romanico_Sprite)
+[2017.08.26-12.03.33:720][637]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor3)
+[2017.08.26-12.03.34:869][770]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor4)
+[2017.08.26-12.04.03:005][102]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor5)
+[2017.08.26-12.04.05:099][349]LogEditorViewport: Clicking on Actor (CTRL LMB): TextRenderActor (TextRenderActor6)
+[2017.08.26-12.04.12:786][260]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite128)
+[2017.08.26-12.04.13:577][349]LogEditorViewport: Clicking Background
+[2017.08.26-12.04.14:527][462]Cmd: TRANSACTION UNDO
+[2017.08.26-12.04.14:527][462]LogEditorTransaction: Undo Clicking Background
+[2017.08.26-12.04.14:551][462]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.04.14:551][462]LogTemp:Display: Added material ShaderMap 0x0000022B26F02400 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-12.04.14:556][462]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B26F02400
+[2017.08.26-12.04.14:556][462]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.04.15:131][509]Cmd: TRANSACTION UNDO
+[2017.08.26-12.04.15:131][509]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.26-12.04.15:153][509]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.04.15:154][509]LogTemp:Display: Added material ShaderMap 0x0000022BADBDD600 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-12.04.15:161][509]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BADBDD600
+[2017.08.26-12.04.15:162][509]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.04.15:509][542]LogTemp:Display: Finished compile of shader map 0x0000022B26F02400
+[2017.08.26-12.04.15:509][542]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B26F02400, marking material texto as finished
+[2017.08.26-12.04.15:509][542]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-12.04.16:342][637]LogTemp:Display: Finished compile of shader map 0x0000022BADBDD600
+[2017.08.26-12.04.16:342][637]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BADBDD600, marking material texto as finished
+[2017.08.26-12.04.16:342][637]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-12.04.16:350][638]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-12.04.16:350][638]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-12.04.16:350][638]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-12.04.24:197][576]LogEditorViewport: Clicking Background
+[2017.08.26-12.04.30:566][336]LogEditorViewport: Clicking Background
+[2017.08.26-12.04.33:152][646]LogEditorViewport: Clicking Background
+[2017.08.26-12.04.58:530][691]LogEditorViewport: Clicking Background
+[2017.08.26-12.05.24:673][779]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite128)
+[2017.08.26-12.05.25:697][896]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (suelo_Sprite128)
+[2017.08.26-12.05.55:208][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Fotos/romanico_Sprite" FILE="../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/romanico_Sprite.uasset" SILENT=true
+[2017.08.26-12.05.55:218][311]LogSavePackage: Save=8.89ms
+[2017.08.26-12.05.55:218][311]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/romanico_SpriteBE56B4924593AD8E36954FA8777FF39E.tmp' to '../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/romanico_Sprite.uasset'
+[2017.08.26-12.05.55:220][311]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/romanico_Sprite.uasset
+[2017.08.26-12.05.59:554][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineMaterials/texto" FILE="../../../Engine/Content/EngineMaterials/texto.uasset" SILENT=true
+[2017.08.26-12.05.59:557][657]LogSavePackage: Save=1.47ms
+[2017.08.26-12.05.59:557][657]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/texto35B50069470FB17D55D352BE5B388633.tmp' to '../../../Engine/Content/EngineMaterials/texto.uasset'
+[2017.08.26-12.05.59:560][657]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineMaterials/texto.uasset
+[2017.08.26-12.05.59:609][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.26-12.05.59:966][657]LogSavePackage: Save=307.47ms
+[2017.08.26-12.05.59:966][657]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1945CD6B74E26D2EAD700A79B889190CC.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap'
+[2017.08.26-12.05.59:968][657]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap
+[2017.08.26-12.05.59:991][657]LogFileHelpers: Saving map 'fase1' took 0.429
+[2017.08.26-12.06.00:001][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/Pablo_picasso" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/Pablo_picasso.uasset" SILENT=true
+[2017.08.26-12.06.00:011][657]LogSavePackage: Save=9.08ms
+[2017.08.26-12.06.00:012][657]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/Pablo_picassoEF46CAE14D422C9DA4F097B9204B5B6D.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/Pablo_picasso.uasset'
+[2017.08.26-12.06.00:014][657]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/Pablo_picasso.uasset
+[2017.08.26-12.06.00:021][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/romanico" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/romanico.uasset" SILENT=true
+[2017.08.26-12.06.00:041][657]LogSavePackage: Save=18.98ms
+[2017.08.26-12.06.00:041][657]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/romanico16CDB0664A7BCEF668FD08AD55796412.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/romanico.uasset'
+[2017.08.26-12.06.00:043][657]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/romanico.uasset
+[2017.08.26-12.06.00:045][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/romanico_Sprite" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/romanico_Sprite.uasset" SILENT=true
+[2017.08.26-12.06.00:047][657]LogSavePackage: Save=0.83ms
+[2017.08.26-12.06.00:047][657]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/romanico_SpriteBB68A9CA485E863A7A0C3887D7704A99.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/romanico_Sprite.uasset'
+[2017.08.26-12.06.00:049][657]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/romanico_Sprite.uasset
+[2017.08.26-12.06.01:383][815]LogEditorViewport: Clicking Background
+[2017.08.26-12.08.47:865][ 44]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (romanico_Sprite)
+[2017.08.26-12.09.05:885][791]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\Imagenes\gotico.jpg)
+[2017.08.26-12.09.05:892][791]LogTexture:Display: Building textures: gotico (BGRA8, 254X345) - 99 MB total VRAM
+[2017.08.26-12.09.44:811][351]LogEditorViewport: Clicking Background
+[2017.08.26-12.09.46:945][607]LogEditorViewport: Clicking Background
+[2017.08.26-12.12.32:031][665]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\DATOS\Mis Archivos\Facultad\Dropbox\Facultad\TFG\Imagenes\renacimiento.jpg)
+[2017.08.26-12.12.32:038][665]LogTexture:Display: Building textures: renacimiento (BGRA8, 345X272) - 99 MB total VRAM
+[2017.08.26-12.12.48:958][473]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-12.12.50:522][655]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite201)
+[2017.08.26-12.12.51:042][717]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (gotico_Sprite)
+[2017.08.26-12.12.55:924][295]LogEditorViewport: Clicking Background
+[2017.08.26-12.13.00:161][803]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (renacimiento_Sprite)
+[2017.08.26-12.13.05:582][445]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-12.13.05:596][445]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.13.05:596][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-12.13.05:596][445]PIE: New page: PIE session: fase1 (Aug 26, 2017, 4:13:05 PM)
+[2017.08.26-12.13.05:596][445]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-12.13.05:624][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027639s)
+[2017.08.26-12.13.05:624][445]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-12.13.05:625][445]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.08.26-12.13.05:625][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.028587s)
+[2017.08.26-12.13.05:658][445]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-12.13.05:667][445]LogInit: FAudioDevice initialized.
+[2017.08.26-12.13.05:698][445]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-12.13.05:702][445]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-14.13.05
+[2017.08.26-12.13.05:703][445]LogWorld: Bringing up level for play took: 0.005164
+[2017.08.26-12.13.05:710][445]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.072
+[2017.08.26-12.13.05:710][445]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.13.58:909][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.13.58:968][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.14.00:614][ 16]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (gotico_Sprite)
+[2017.08.26-12.14.02:371][221]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (romanico_Sprite)
+[2017.08.26-12.14.11:261][266]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor4)
+[2017.08.26-12.14.12:747][439]Cmd: DELETE
+[2017.08.26-12.14.12:747][439]Cmd: ACTOR DELETE
+[2017.08.26-12.14.12:748][439]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.08.26-12.14.12:776][439]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.08.26-12.14.13:609][539]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor3)
+[2017.08.26-12.14.21:840][508]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor6)
+[2017.08.26-12.14.22:817][621]Cmd: DELETE
+[2017.08.26-12.14.22:817][621]Cmd: ACTOR DELETE
+[2017.08.26-12.14.22:818][621]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.08.26-12.14.22:845][621]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.08.26-12.14.23:787][734]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor5)
+[2017.08.26-12.14.32:172][725]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor2)
+[2017.08.26-12.14.32:316][738]Cmd: DELETE
+[2017.08.26-12.14.32:316][738]Cmd: ACTOR DELETE
+[2017.08.26-12.14.32:317][738]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.08.26-12.14.32:345][738]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.08.26-12.14.33:194][840]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.26-12.14.39:859][629]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (romanico_Sprite)
+[2017.08.26-12.14.41:188][782]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.26-12.14.41:201][782]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.14.41:201][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-12.14.41:201][782]PIE: New page: PIE session: fase1 (Aug 26, 2017, 4:14:41 PM)
+[2017.08.26-12.14.41:202][782]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_fase1
+[2017.08.26-12.14.41:229][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026662s)
+[2017.08.26-12.14.41:229][782]LogAIModule: Creating AISystem for world fase1
+[2017.08.26-12.14.41:229][782]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.08.26-12.14.41:230][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/fase1.fase1 to /Game/Levels/UEDPIE_0_fase1.fase1 (0.027646s)
+[2017.08.26-12.14.41:259][782]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-12.14.41:268][782]LogInit: FAudioDevice initialized.
+[2017.08.26-12.14.41:298][782]LogLoad: Game class is 'misc-gameMode_C'
+[2017.08.26-12.14.41:302][782]LogWorld: Bringing World /Game/Levels/UEDPIE_0_fase1.fase1 up for play (max tick rate 0) at 2017.08.26-14.14.41
+[2017.08.26-12.14.41:304][782]LogWorld: Bringing up level for play took: 0.005086
+[2017.08.26-12.14.41:310][782]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_fase1 -0.472
+[2017.08.26-12.14.41:310][782]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.15.00:972][135]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array personaje_cadena of length 0!
+[2017.08.26-12.15.05:295][654]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array personaje_cadena of length 0!
+[2017.08.26-12.15.09:670][179]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array personaje_cadena of length 0!
+[2017.08.26-12.15.15:706][901]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array personaje_cadena of length 0!
+[2017.08.26-12.15.16:495][996]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array personaje_cadena of length 0!
+[2017.08.26-12.15.16:645][ 14]LogScriptCore:Warning: Script Msg: Attempted to access index 1 from array personaje_cadena of length 0!
+[2017.08.26-12.15.16:786][ 31]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array personaje_cadena of length 0!
+[2017.08.26-12.15.16:911][ 46]LogScriptCore:Warning: Script Msg: Attempted to access index 2 from array personaje_cadena of length 0!
+[2017.08.26-12.16.18:183][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.16.18:246][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/fase1.fase1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/fase1.fase1:PersistentLevel.fase1' with GeneratedClass '/Game/Levels/fase1.fase1_C' with ClassGeneratedBy '/Game/Levels/fase1.fase1:PersistentLevel.fase1'
+[2017.08.26-12.16.24:754][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Fotos/renacimiento_Sprite" FILE="../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/renacimiento_Sprite.uasset" SILENT=true
+[2017.08.26-12.16.24:763][155]LogSavePackage: Save=8.19ms
+[2017.08.26-12.16.24:763][155]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/renacimiento_SpriteCBCA4B8A4369B27B36678F874B9B946C.tmp' to '../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/renacimiento_Sprite.uasset'
+[2017.08.26-12.16.24:765][155]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/renacimiento_Sprite.uasset
+[2017.08.26-12.16.24:774][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Fotos/gotico_Sprite" FILE="../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/gotico_Sprite.uasset" SILENT=true
+[2017.08.26-12.16.24:783][155]LogSavePackage: Save=8.74ms
+[2017.08.26-12.16.24:783][155]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/gotico_SpriteE35DA3F041E8ED6D3CAB1E87B9D196C4.tmp' to '../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/gotico_Sprite.uasset'
+[2017.08.26-12.16.24:785][155]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Sprites/Fotos/gotico_Sprite.uasset
+[2017.08.26-12.16.28:779][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.26-12.16.29:133][416]LogSavePackage: Save=303.64ms
+[2017.08.26-12.16.29:133][416]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase1C0A7FD7F4C3324700107618CE562C902.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap'
+[2017.08.26-12.16.29:136][416]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap
+[2017.08.26-12.16.29:158][416]LogFileHelpers: Saving map 'fase1' took 0.412
+[2017.08.26-12.16.29:166][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/gotico" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/gotico.uasset" SILENT=true
+[2017.08.26-12.16.29:186][416]LogSavePackage: Save=18.26ms
+[2017.08.26-12.16.29:186][416]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/goticoBF00D6E84D96D1EAEB9946BBC76DF01C.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/gotico.uasset'
+[2017.08.26-12.16.29:188][416]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/gotico.uasset
+[2017.08.26-12.16.29:190][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/gotico_Sprite" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/gotico_Sprite.uasset" SILENT=true
+[2017.08.26-12.16.29:192][416]LogSavePackage: Save=0.91ms
+[2017.08.26-12.16.29:192][416]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/gotico_Sprite8D7E87E84EE4F74E3B2C37A9D8011AE9.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/gotico_Sprite.uasset'
+[2017.08.26-12.16.29:194][416]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/gotico_Sprite.uasset
+[2017.08.26-12.16.29:203][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/renacimiento" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/renacimiento.uasset" SILENT=true
+[2017.08.26-12.16.29:220][416]LogSavePackage: Save=16.13ms
+[2017.08.26-12.16.29:220][416]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/renacimiento441808434520C96552A5419C003A1F35.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/renacimiento.uasset'
+[2017.08.26-12.16.29:223][416]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/renacimiento.uasset
+[2017.08.26-12.16.29:226][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/ForBackgrounds/renacimiento_Sprite" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/renacimiento_Sprite.uasset" SILENT=true
+[2017.08.26-12.16.29:229][416]LogSavePackage: Save=1.10ms
+[2017.08.26-12.16.29:229][416]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/renacimiento_Sprite993AFEB64BD70858EBBDCDB4748C9BE1.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/renacimiento_Sprite.uasset'
+[2017.08.26-12.16.29:231][416]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/ForBackgrounds/renacimiento_Sprite.uasset
+[2017.08.26-12.16.31:613][701]LogEditorViewport: Clicking Background
+[2017.08.26-12.16.42:039][951]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite121)
+[2017.08.26-12.16.43:423][111]Cmd: DELETE
+[2017.08.26-12.16.43:423][111]Cmd: ACTOR DELETE
+[2017.08.26-12.16.43:424][111]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.26-12.16.43:453][111]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.08.26-12.16.44:261][208]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (suelo_Sprite124)
+[2017.08.26-12.16.45:371][336]Cmd: DELETE
+[2017.08.26-12.16.45:371][336]Cmd: ACTOR DELETE
+[2017.08.26-12.16.45:373][336]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.26-12.16.45:401][336]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2017.08.26-12.16.47:341][569]Cmd: TRANSACTION UNDO
+[2017.08.26-12.16.47:341][569]LogEditorTransaction: Undo Delete Actors
+[2017.08.26-12.16.47:366][569]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.16.47:366][569]LogTemp:Display: Added material ShaderMap 0x0000022B8D8A1280 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-12.16.47:371][569]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8D8A1280
+[2017.08.26-12.16.47:371][569]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.16.47:479][574]Cmd: TRANSACTION UNDO
+[2017.08.26-12.16.47:479][574]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.26-12.16.47:482][574]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.16.47:483][574]LogTemp:Display: Added material ShaderMap 0x0000022BACEA9980 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-12.16.47:490][574]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BACEA9980
+[2017.08.26-12.16.47:490][574]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.16.47:883][611]LogTemp:Display: Finished compile of shader map 0x0000022B8D8A1280
+[2017.08.26-12.16.47:883][611]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8D8A1280, marking material texto as finished
+[2017.08.26-12.16.47:883][611]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-12.16.48:722][709]LogTemp:Display: Finished compile of shader map 0x0000022BACEA9980
+[2017.08.26-12.16.48:722][709]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BACEA9980, marking material texto as finished
+[2017.08.26-12.16.48:722][709]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-12.16.48:730][710]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-12.16.48:730][710]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-12.16.48:730][710]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-12.16.48:747][712]Cmd: TRANSACTION UNDO
+[2017.08.26-12.16.48:747][712]LogEditorTransaction: Undo Delete Actors
+[2017.08.26-12.16.48:771][712]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.16.48:772][712]LogTemp:Display: Added material ShaderMap 0x0000022BB21AE080 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-12.16.48:777][712]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BB21AE080
+[2017.08.26-12.16.48:777][712]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.16.49:026][735]Cmd: TRANSACTION UNDO
+[2017.08.26-12.16.49:026][735]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.26-12.16.49:028][735]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.16.49:029][735]LogTemp:Display: Added material ShaderMap 0x0000022B8D8E1980 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-12.16.49:037][735]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8D8E1980
+[2017.08.26-12.16.49:037][735]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.16.49:427][778]LogTemp:Display: Finished compile of shader map 0x0000022BB21AE080
+[2017.08.26-12.16.49:427][778]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BB21AE080, marking material texto as finished
+[2017.08.26-12.16.49:427][778]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-12.16.50:151][863]LogTemp:Display: Finished compile of shader map 0x0000022B8D8E1980
+[2017.08.26-12.16.50:151][863]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8D8E1980, marking material texto as finished
+[2017.08.26-12.16.50:151][863]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-12.16.50:158][864]MaterialEditorStats: Info Base pass shader without light map: 34 instructions
+[2017.08.26-12.16.50:158][864]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.08.26-12.16.50:158][864]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.08.26-12.16.51:732][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/fase1" FILE="../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.08.26-12.16.52:084][ 51]LogSavePackage: Save=301.95ms
+[2017.08.26-12.16.52:084][ 51]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/fase19EFFA4E643A0B9F601B5C88C28AD47AB.tmp' to '../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap'
+[2017.08.26-12.16.52:087][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Levels/fase1.umap
+[2017.08.26-12.17.11:464][ 98]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.17.11:464][ 98]LogTemp:Display: Added material ShaderMap 0x0000022B8D8A2780 with Material 0x0000022B30C83B00 to ShaderMapsBeingCompiled
+[2017.08.26-12.17.11:472][ 98]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022B8D8A2780
+[2017.08.26-12.17.11:473][ 98]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.17.11:482][ 98]LogTemp:Display: Removed shader map 0x0000022BB2617200 from material 0x0000022B77DCEC80
+[2017.08.26-12.17.11:497][ 98]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.17.11:498][ 98]LogTemp:Display: Added material ShaderMap 0x0000022BB2617C80 with Material 0x0000022B77DCC280 to ShaderMapsBeingCompiled
+[2017.08.26-12.17.11:517][ 98]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BB2617C80
+[2017.08.26-12.17.11:519][ 98]LogMaterial: Missing cached shader map for material texto, compiling. 
+[2017.08.26-12.17.11:520][ 98]LogTemp:Display: Added material ShaderMap 0x0000022BACE61980 with Material 0x0000022B77DCC280 to ShaderMapsBeingCompiled
+[2017.08.26-12.17.11:532][ 98]LogTemp:Display: Kicking off shader compilation for texto, GameThreadShaderMap 0x0000022BACE61980
+[2017.08.26-12.17.11:534][ 98]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.08.26-12.17.11:579][ 98]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy texto, compiling. 
+[2017.08.26-12.17.11:580][ 98]LogTemp:Display: Added material ShaderMap 0x0000022BACF11980 with Material 0x0000022BB20AD900 to ShaderMapsBeingCompiled
+[2017.08.26-12.17.12:055][ 98]LogTemp:Display: Finished compile of shader map 0x0000022BACF11980
+[2017.08.26-12.17.12:055][ 98]LogTemp:Display: Shader map FDebugViewModeMaterialProxy texto complete, GameThreadShaderMap 0x0000022BACF11980, marking material FDebugViewModeMaterialProxy texto as finished
+[2017.08.26-12.17.12:055][ 98]LogTemp:Display: Marking material as finished 0x0000022BB20AD900
+[2017.08.26-12.17.12:058][ 98]TextureStreamingBuild:Display: Compiling optional shaders took 0.484 seconds.
+[2017.08.26-12.17.14:892][ 98]LogTemp:Display: Finished compile of shader map 0x0000022BACE61980
+[2017.08.26-12.17.14:892][ 98]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022BACE61980, marking material texto as finished
+[2017.08.26-12.17.14:892][ 98]LogTemp:Display: Marking material as finished 0x0000022B77DCC280
+[2017.08.26-12.17.14:895][ 98]LogTemp:Display: Finished compile of shader map 0x0000022B8D8A2780
+[2017.08.26-12.17.14:895][ 98]LogTemp:Display: Shader map texto complete, GameThreadShaderMap 0x0000022B8D8A2780, marking material texto as finished
+[2017.08.26-12.17.14:895][ 98]LogTemp:Display: Marking material as finished 0x0000022B30C83B00
+[2017.08.26-12.17.14:914][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/texto" FILE="../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset" SILENT=true
+[2017.08.26-12.17.14:948][ 98]LogSavePackage: Save=9.89ms
+[2017.08.26-12.17.14:948][ 98]LogSavePackage: Moving '../../../../../TFG/CreativeKeepers/Saved/texto7E1CC7F74F14335B6E77CE922B641000.tmp' to '../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset'
+[2017.08.26-12.17.14:950][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../TFG/CreativeKeepers/Content/Textures/texto.uasset
+[2017.08.26-12.17.15:174][ 98]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.26-12.17.15:272][ 98]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.26-12.17.15:704][ 99]Cmd: QUIT_EDITOR
+[2017.08.26-12.17.16:677][ 99]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.26-12.17.16:724][ 99]LogExit: Preparing to exit.
+[2017.08.26-12.17.17:869][ 99]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Content/' was aborted.
+[2017.08.26-12.17.17:989][ 99]LogExit: Editor shut down
+[2017.08.26-12.17.18:022][ 99]LogExit: Transaction tracking system shut down
+[2017.08.26-12.17.18:042][ 99]LogTemp:Display: Removed shader map 0x0000022BADB21280 from material 0x0000022B30C83B00
+[2017.08.26-12.17.18:042][ 99]LogTemp:Display: Removed shader map 0x0000022BABD7E780 from material 0x0000022B30C83B00
+[2017.08.26-12.17.18:042][ 99]LogTemp:Display: Removed shader map 0x0000022BAB8B0100 from material 0x0000022B30C83B00
+[2017.08.26-12.17.18:042][ 99]LogTemp:Display: Removed shader map 0x0000022BB2617C80 from material 0x0000022B77DCC280
+[2017.08.26-12.17.18:707][ 99]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.26-12.17.18:708][ 99]LogExit: Object subsystem successfully closed.
+[2017.08.26-12.17.18:823][ 99]LogD3D11RHI: Shutdown
+[2017.08.26-12.17.18:823][ 99]LogD3D11RHI: CleanupD3DDevice
+[2017.08.26-12.17.18:945][ 99]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.26-12.17.19:463][ 99]LogModuleManager: Shutting down and abandoning module MaterialEditor (508)
+[2017.08.26-12.17.19:463][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (506)
+[2017.08.26-12.17.19:463][ 99]LogModuleManager: Shutting down and abandoning module SynthBenchmark (504)
+[2017.08.26-12.17.19:463][ 99]LogModuleManager: Shutting down and abandoning module BlueprintGraph (502)
+[2017.08.26-12.17.19:463][ 99]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (500)
+[2017.08.26-12.17.19:471][ 99]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.08.26-12.17.19:480][ 99]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.08.26-12.17.19:480][ 99]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.08.26-12.17.19:480][ 99]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.08.26-12.17.19:488][ 99]LogDirectoryWatcher: A directory notification for 'D:/Programas/UE_4.15/FeaturePacks/' was aborted.
+[2017.08.26-12.17.19:493][ 99]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.08.26-12.17.19:493][ 99]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.08.26-12.17.19:493][ 99]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.08.26-12.17.19:501][ 99]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Content/Collections/' was aborted.
+[2017.08.26-12.17.19:501][ 99]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Content/Developers/Grego/Collections/' was aborted.
+[2017.08.26-12.17.19:501][ 99]LogDirectoryWatcher: A directory notification for 'D:/TFG/CreativeKeepers/Saved/Collections/' was aborted.
+[2017.08.26-12.17.19:501][ 99]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.08.26-12.17.19:509][ 99]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.08.26-12.17.19:509][ 99]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.08.26-12.17.19:515][ 99]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.08.26-12.17.19:515][ 99]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.08.26-12.17.19:515][ 99]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.08.26-12.17.19:515][ 99]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.08.26-12.17.19:515][ 99]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.08.26-12.17.19:525][ 99]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.08.26-12.17.19:526][ 99]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.08.26-12.17.19:526][ 99]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.08.26-12.17.19:534][ 99]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.08.26-12.17.19:534][ 99]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.08.26-12.17.19:562][ 99]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.08.26-12.17.19:573][ 99]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.08.26-12.17.19:573][ 99]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.08.26-12.17.19:573][ 99]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.08.26-12.17.19:573][ 99]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.08.26-12.17.19:573][ 99]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.08.26-12.17.19:579][ 99]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.08.26-12.17.19:588][ 99]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.08.26-12.17.19:594][ 99]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.08.26-12.17.19:594][ 99]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.08.26-12.17.19:594][ 99]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.08.26-12.17.19:594][ 99]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.08.26-12.17.19:601][ 99]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.08.26-12.17.19:866][ 99]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.08.26-12.17.19:866][ 99]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.08.26-12.17.19:866][ 99]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.08.26-12.17.19:874][ 99]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.08.26-12.17.19:892][ 99]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.08.26-12.17.19:901][ 99]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.08.26-12.17.19:901][ 99]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.08.26-12.17.19:913][ 99]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.08.26-12.17.19:913][ 99]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.08.26-12.17.19:924][ 99]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.08.26-12.17.19:932][ 99]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.08.26-12.17.19:935][ 99]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.08.26-12.17.19:939][ 99]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.08.26-12.17.19:944][ 99]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.08.26-12.17.19:944][ 99]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.08.26-12.17.19:944][ 99]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.08.26-12.17.19:948][ 99]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.08.26-12.17.19:948][ 99]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.08.26-12.17.19:948][ 99]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.08.26-12.17.19:949][ 99]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.08.26-12.17.19:956][ 99]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.08.26-12.17.19:962][ 99]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.08.26-12.17.19:969][ 99]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.08.26-12.17.19:988][ 99]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.08.26-12.17.19:997][ 99]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.08.26-12.17.20:040][ 99]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.08.26-12.17.20:046][ 99]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.08.26-12.17.20:060][ 99]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.08.26-12.17.20:078][ 99]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.08.26-12.17.20:078][ 99]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.08.26-12.17.20:088][ 99]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.08.26-12.17.20:088][ 99]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.08.26-12.17.20:107][ 99]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.08.26-12.17.20:107][ 99]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.08.26-12.17.20:115][ 99]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.08.26-12.17.20:115][ 99]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.08.26-12.17.20:117][ 99]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.08.26-12.17.20:117][ 99]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.08.26-12.17.20:125][ 99]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.08.26-12.17.20:133][ 99]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.08.26-12.17.20:137][ 99]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.08.26-12.17.20:143][ 99]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.08.26-12.17.20:144][ 99]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.08.26-12.17.20:154][ 99]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.08.26-12.17.20:154][ 99]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.08.26-12.17.20:299][ 99]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.08.26-12.17.20:310][ 99]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.08.26-12.17.20:310][ 99]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.08.26-12.17.20:310][ 99]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.08.26-12.17.20:310][ 99]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.08.26-12.17.20:317][ 99]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.08.26-12.17.20:318][ 99]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.08.26-12.17.20:318][ 99]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.08.26-12.17.20:318][ 99]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.08.26-12.17.20:318][ 99]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.08.26-12.17.20:318][ 99]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.08.26-12.17.20:318][ 99]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.08.26-12.17.20:334][ 99]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.08.26-12.17.20:334][ 99]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.08.26-12.17.20:338][ 99]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.08.26-12.17.20:338][ 99]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.08.26-12.17.20:338][ 99]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.08.26-12.17.20:338][ 99]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.08.26-12.17.20:338][ 99]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.08.26-12.17.20:338][ 99]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.08.26-12.17.20:338][ 99]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.08.26-12.17.20:348][ 99]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.08.26-12.17.20:353][ 99]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.08.26-12.17.20:353][ 99]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.08.26-12.17.20:353][ 99]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.08.26-12.17.20:353][ 99]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.08.26-12.17.20:353][ 99]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.08.26-12.17.20:363][ 99]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.08.26-12.17.20:368][ 99]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.08.26-12.17.20:377][ 99]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.08.26-12.17.20:388][ 99]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.08.26-12.17.20:388][ 99]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.08.26-12.17.20:388][ 99]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.08.26-12.17.20:388][ 99]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.08.26-12.17.20:399][ 99]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.08.26-12.17.20:410][ 99]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.08.26-12.17.20:417][ 99]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.08.26-12.17.20:430][ 99]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.08.26-12.17.20:430][ 99]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.08.26-12.17.20:437][ 99]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.08.26-12.17.20:438][ 99]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.08.26-12.17.20:449][ 99]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.08.26-12.17.20:449][ 99]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.08.26-12.17.20:449][ 99]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.08.26-12.17.20:550][ 99]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.08.26-12.17.20:678][ 99]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.08.26-12.17.20:701][ 99]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.08.26-12.17.20:703][ 99]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.08.26-12.17.20:703][ 99]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.08.26-12.17.20:703][ 99]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.08.26-12.17.20:710][ 99]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.08.26-12.17.20:710][ 99]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.08.26-12.17.20:711][ 99]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.08.26-12.17.20:711][ 99]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.08.26-12.17.20:711][ 99]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.08.26-12.17.20:724][ 99]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.08.26-12.17.20:724][ 99]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.08.26-12.17.20:724][ 99]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.08.26-12.17.20:738][ 99]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.08.26-12.17.20:738][ 99]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.08.26-12.17.20:745][ 99]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.08.26-12.17.20:755][ 99]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.08.26-12.17.20:779][ 99]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.08.26-12.17.20:798][ 99]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.08.26-12.17.20:806][ 99]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.08.26-12.17.20:806][ 99]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.08.26-12.17.20:806][ 99]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.08.26-12.17.20:822][ 99]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.08.26-12.17.20:822][ 99]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.08.26-12.17.20:824][ 99]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.08.26-12.17.20:824][ 99]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.08.26-12.17.20:824][ 99]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.08.26-12.17.20:824][ 99]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.08.26-12.17.20:824][ 99]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.08.26-12.17.20:824][ 99]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.08.26-12.17.20:991][ 99]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.26-12.17.20:991][ 99]LogDirectoryWatcher: A directory notification for '../../../../../TFG/CreativeKeepers/Content/' was aborted.
+[2017.08.26-12.17.20:991][ 99]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.26-12.17.21:001][ 99]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.08.26-12.17.21:004][ 99]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.08.26-12.17.21:004][ 99]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.08.26-12.17.21:004][ 99]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.08.26-12.17.21:004][ 99]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.08.26-12.17.21:010][ 99]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.08.26-12.17.21:010][ 99]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.08.26-12.17.21:010][ 99]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.08.26-12.17.21:010][ 99]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.08.26-12.17.21:058][ 99]LogDerivedDataCache: Shutdown
+[2017.08.26-12.17.21:058][ 99]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.08.26-12.17.21:058][ 99]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.08.26-12.17.21:067][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.08.26-12.17.21:074][ 99]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.08.26-12.17.21:074][ 99]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.08.26-12.17.21:085][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.08.26-12.17.21:085][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.08.26-12.17.21:085][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.08.26-12.17.21:085][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.08.26-12.17.21:086][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.08.26-12.17.21:086][ 99]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.08.26-12.17.21:086][ 99]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.08.26-12.17.21:086][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.08.26-12.17.21:090][ 99]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.08.26-12.17.21:091][ 99]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.08.26-12.17.21:098][ 99]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.08.26-12.17.21:098][ 99]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.08.26-12.17.21:098][ 99]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.08.26-12.17.21:098][ 99]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.08.26-12.17.21:098][ 99]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.26-12.17.21:108][ 99]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.08.26-12.17.21:117][ 99]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.08.26-12.17.21:122][ 99]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.26-12.17.21:122][ 99]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF7152F62-4808-FFCD-EBED-689B56A8A1DD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=32a836f54a69625fd74255b8f28df338%7C1968c17eba254ed9b4bf8b1be1637d8f%7C3fa134da-b9a2-4079-8632-9954fbbaa8c2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.26-12.17.21:152][ 99]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.08.26-12.17.21:158][ 99]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.26-12.17.21:173][ 99]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.26-12.17.21:174][ 99]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.26-12.17.21:174][ 99]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.26-12.17.21:174][ 99]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.26-12.17.21:192][ 99]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.26-12.17.21:199][ 99]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.26-12.17.21:199][ 99]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.26-12.17.21:206][ 99]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.26-12.17.21:206][ 99]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.26-12.17.21:206][ 99]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.26-12.17.21:206][ 99]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.26-12.17.21:206][ 99]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.26-12.17.21:206][ 99]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.26-12.17.21:206][ 99]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.26-12.17.21:217][ 99]LogExit: Exiting.
+[2017.08.26-12.17.21:221][ 99]Log file closed, 08/26/17 14:17:21
